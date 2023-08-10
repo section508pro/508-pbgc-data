@@ -1,0 +1,111 @@
+[
+  {
+    "id": "aria-allowed-attr",
+    "title": "`[aria-*]` attributes do not match their roles",
+    "description": "Each ARIA `role` supports a specific subset of `aria-*` attributes. Mismatching these invalidates the `aria-*` attributes. [Learn more](https://web.dev/aria-allowed-attr/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-203-DIV",
+            "path": "1,HTML,1,BODY,2,DIV,3,MAIN,0,DIV,3,DIV,0,DIV,1,DIV,0,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,DIV,0,DIV,1,DIV",
+            "selector": "div.pbgc-faq-section > div > div.paragraph > div.usa-accordion",
+            "boundingRect": {
+              "top": 633,
+              "bottom": 1114,
+              "left": 16,
+              "right": 396,
+              "width": 380,
+              "height": 481
+            },
+            "snippet": "<div class=\"usa-accordion\" aria-multiselectable=\"false\">",
+            "nodeLabel": "What does the Office of the Advocate do?\n\nThe Office of the Advocate helps part…",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-multiselectable=\"false\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-204-DIV",
+            "path": "1,HTML,1,BODY,2,DIV,3,MAIN,0,DIV,3,DIV,0,DIV,1,DIV,0,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,1,DIV,1,DIV,0,DIV,1,DIV",
+            "selector": "div.pbgc-faq-section > div > div.paragraph > div.usa-accordion",
+            "boundingRect": {
+              "top": 1230,
+              "bottom": 1511,
+              "left": 16,
+              "right": 396,
+              "width": 380,
+              "height": 281
+            },
+            "snippet": "<div class=\"usa-accordion\" aria-multiselectable=\"false\">",
+            "nodeLabel": "How was the position of the PBGC Advocate created?\n\nThe role of the PBGC Advoca…",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-multiselectable=\"false\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-205-DIV",
+            "path": "1,HTML,1,BODY,2,DIV,3,MAIN,0,DIV,3,DIV,0,DIV,1,DIV,0,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,1,DIV,2,DIV,0,DIV,1,DIV",
+            "selector": "div.pbgc-faq-section > div > div.paragraph > div.usa-accordion",
+            "boundingRect": {
+              "top": 1590,
+              "bottom": 1735,
+              "left": 16,
+              "right": 396,
+              "width": 380,
+              "height": 146
+            },
+            "snippet": "<div class=\"usa-accordion\" aria-multiselectable=\"false\">",
+            "nodeLabel": "What are the Advocate’s reporting requirements?\n\nSection 4004(e) of ERISA requi…",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-multiselectable=\"false\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-206-DIV",
+            "path": "1,HTML,1,BODY,2,DIV,3,MAIN,0,DIV,3,DIV,0,DIV,1,DIV,0,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,1,DIV,3,DIV,0,DIV,1,DIV",
+            "selector": "div.pbgc-faq-section > div > div.paragraph > div.usa-accordion",
+            "boundingRect": {
+              "top": 1813,
+              "bottom": 1959,
+              "left": 16,
+              "right": 396,
+              "width": 380,
+              "height": 146
+            },
+            "snippet": "<div class=\"usa-accordion\" aria-multiselectable=\"false\">",
+            "nodeLabel": "How can I contact the Office of the Advocate?\n\nThe Office of the Advocate can b…",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-multiselectable=\"false\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412"
+        ]
+      }
+    },
+    "errorCount": 4
+  }
+]

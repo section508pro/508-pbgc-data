@@ -1,0 +1,184 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-408-SPAN",
+            "path": "1,HTML,1,BODY,2,DIV,3,MAIN,0,DIV,3,DIV,0,DIV,2,DIV,0,DIV,0,P,0,A,0,SPAN",
+            "selector": "div.field > p > a.pbgcSurvey > span.pbgcSurveyBadgeLabel",
+            "boundingRect": {
+              "top": 303,
+              "bottom": 464,
+              "left": 373,
+              "right": 389,
+              "width": 16,
+              "height": 161
+            },
+            "snippet": "<span class=\"pbgcSurveyBadgeLabel\" style=\"color:#fff\">",
+            "nodeLabel": "Déjenos sus comentarios",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.19 (foreground color: #ffffff, background color: #f39c12, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-360-A",
+                  "path": "1,HTML,1,BODY,2,DIV,3,MAIN,0,DIV,3,DIV,0,DIV,2,DIV,0,DIV,0,P,0,A",
+                  "selector": "div#block-spanishoptinsurvey > div.field > p > a.pbgcSurvey",
+                  "boundingRect": {
+                    "top": 292,
+                    "bottom": 475,
+                    "left": 359,
+                    "right": 404,
+                    "width": 45,
+                    "height": 183
+                  },
+                  "snippet": "<a aria-label=\"Your Feedback, opens dialog\" class=\"pbgcSurvey pbgcSurveybadge--default pbgcSurveybadge--large pbgcSurveymiddl…\" onclick=\"window.open('https://cfigroupfed.gov1.qualtrics.com/jfe/form/SV_bxOB6OjfpP…\" role=\"button\" style=\"display: block; overflow: hidden; background-color: rgb(243, 156, 18);\" tabindex=\"0\">",
+                  "nodeLabel": "Déjenos sus comentarios"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-409-H3",
+            "path": "1,HTML,1,BODY,2,DIV,3,MAIN,0,DIV,3,DIV,0,DIV,1,DIV,0,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,H3",
+            "selector": "div.desktop:grid-col-8 > div.block > div.field > h3",
+            "boundingRect": {
+              "top": 1113,
+              "bottom": 1166,
+              "left": 16,
+              "right": 396,
+              "width": 380,
+              "height": 53
+            },
+            "snippet": "<h3>",
+            "nodeLabel": "AVISO: Los siguientes documentos están en inglés.",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "link-name",
+    "title": "Links do not have a discernible name",
+    "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn more](https://web.dev/link-name/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-85-A",
+            "path": "1,HTML,1,BODY,2,DIV,3,MAIN,0,DIV,3,DIV,0,DIV,1,DIV,0,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,P,3,A",
+            "selector": "div.block > div.field > p > a",
+            "boundingRect": {
+              "top": 1185,
+              "bottom": 1204,
+              "left": 57,
+              "right": 61,
+              "width": 4,
+              "height": 19
+            },
+            "snippet": "<a href=\"#c\">",
+            "nodeLabel": " ",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag244",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

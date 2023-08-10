@@ -1,0 +1,128 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-347-SPAN",
+            "path": "1,HTML,1,BODY,2,DIV,3,MAIN,0,DIV,3,DIV,0,DIV,2,DIV,0,DIV,0,P,0,A,0,SPAN",
+            "selector": "div.field > p > a.pbgcSurvey > span.pbgcSurveyBadgeLabel",
+            "boundingRect": {
+              "top": 542,
+              "bottom": 703,
+              "left": 771,
+              "right": 788,
+              "width": 17,
+              "height": 161
+            },
+            "snippet": "<span class=\"pbgcSurveyBadgeLabel\" style=\"color:#fff\">",
+            "nodeLabel": "Déjenos sus comentarios",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.19 (foreground color: #ffffff, background color: #f39c12, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-298-A",
+                  "path": "1,HTML,1,BODY,2,DIV,3,MAIN,0,DIV,3,DIV,0,DIV,2,DIV,0,DIV,0,P,0,A",
+                  "selector": "div#block-spanishoptinsurvey > div.field > p > a.pbgcSurvey",
+                  "boundingRect": {
+                    "top": 530,
+                    "bottom": 714,
+                    "left": 757,
+                    "right": 802,
+                    "width": 45,
+                    "height": 184
+                  },
+                  "snippet": "<a aria-label=\"Your Feedback, opens dialog\" class=\"pbgcSurvey pbgcSurveybadge--default pbgcSurveybadge--large pbgcSurveymiddl…\" onclick=\"window.open('https://cfigroupfed.gov1.qualtrics.com/jfe/form/SV_bxOB6OjfpP…\" role=\"button\" style=\"display: block; overflow: hidden; background-color: rgb(243, 156, 18);\" tabindex=\"0\">",
+                  "nodeLabel": "Déjenos sus comentarios"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-348-H4",
+            "path": "1,HTML,1,BODY,2,DIV,3,MAIN,0,DIV,3,DIV,0,DIV,1,DIV,0,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,H4",
+            "selector": "div.desktop:grid-col-8 > div.block > div.field > h4",
+            "boundingRect": {
+              "top": 644,
+              "bottom": 663,
+              "left": 16,
+              "right": 396,
+              "width": 380,
+              "height": 19
+            },
+            "snippet": "<h4>",
+            "nodeLabel": "A",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]
