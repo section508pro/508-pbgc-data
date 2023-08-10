@@ -1,0 +1,1594 @@
+[
+  {
+    "path": "/",
+    "score": 0.86,
+    "performance": 1,
+    "accessibility": 0.87,
+    "best-practices": 0.75,
+    "seo": 0.83
+  },
+  {
+    "path": "/a-zindex",
+    "score": 0.87,
+    "performance": 0.91,
+    "accessibility": 0.91,
+    "best-practices": 0.83,
+    "seo": 0.84
+  },
+  {
+    "path": "/about",
+    "score": 0.9,
+    "performance": 0.95,
+    "accessibility": 0.91,
+    "best-practices": 0.83,
+    "seo": 0.9
+  },
+  {
+    "path": "/about/annual-reports/multiemployer-plan-news-and-info/determination-of-liabilities-under-pbgcs-multiemployer-guarantee-program",
+    "score": 0.89,
+    "performance": 1,
+    "accessibility": 0.89,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/about/annual-reports/multiemployer-plan-news-and-info/you-are-now-leaving-pbgcgov",
+    "score": 0.88,
+    "performance": 0.92,
+    "accessibility": 0.89,
+    "best-practices": 0.83,
+    "seo": 0.89
+  },
+  {
+    "path": "/about/annual-reports/multiemployer-plan-news-and-info/you-are-now-leaving-pbgcgov-actuaryorg",
+    "score": 0.88,
+    "performance": 0.9,
+    "accessibility": 0.89,
+    "best-practices": 0.83,
+    "seo": 0.89
+  },
+  {
+    "path": "/about/annual-reports/pbgc-annual-performance-financial-report-2016",
+    "score": 0.9,
+    "performance": 1,
+    "accessibility": 0.89,
+    "best-practices": 0.83,
+    "seo": 0.89
+  },
+  {
+    "path": "/about/annual-reports/pbgc-annual-performance-financial-report-2017",
+    "score": 0.83,
+    "performance": 1,
+    "accessibility": 0.82,
+    "best-practices": 0.75,
+    "seo": 0.75
+  },
+  {
+    "path": "/about/annual-reports/pbgc-annual-performance-financial-report-2018",
+    "score": 0.88,
+    "performance": 1,
+    "accessibility": 0.89,
+    "best-practices": 0.75,
+    "seo": 0.89
+  },
+  {
+    "path": "/about/annual-reports/pbgc-annual-performance-financial-report-2019",
+    "score": 0.88,
+    "performance": 1,
+    "accessibility": 0.89,
+    "best-practices": 0.75,
+    "seo": 0.89
+  },
+  {
+    "path": "/about/annual-reports/pbgc-annual-performance-financial-report-2020",
+    "score": 0.88,
+    "performance": 1,
+    "accessibility": 0.89,
+    "best-practices": 0.75,
+    "seo": 0.89
+  },
+  {
+    "path": "/about/annual-reports/pbgc-annual-performance-financial-report-2021",
+    "score": 0.93,
+    "performance": 1,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.97
+  },
+  {
+    "path": "/about/annual-reports/pbgc-annual-performance-financial-report-2022",
+    "score": 0.93,
+    "performance": 1,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.97
+  },
+  {
+    "path": "/about/budget-performance-and-planning/reports/managements-response-to-the-oig-semiannual-report",
+    "score": 0.95,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.98
+  },
+  {
+    "path": "/about/emergency",
+    "score": 0.95,
+    "performance": 1,
+    "accessibility": 0.99,
+    "best-practices": 0.83,
+    "seo": 0.97
+  },
+  {
+    "path": "/about/factsheets",
+    "score": 0.88,
+    "performance": 0.92,
+    "accessibility": 0.89,
+    "best-practices": 0.83,
+    "seo": 0.89
+  },
+  {
+    "path": "/about/factsheets/page/a-and-p",
+    "score": 0.87,
+    "performance": 1,
+    "accessibility": 0.83,
+    "best-practices": 0.83,
+    "seo": 0.83
+  },
+  {
+    "path": "/about/factsheets/page/early-warning/early-warning-program-agreements",
+    "score": 0.95,
+    "performance": 1,
+    "accessibility": 0.99,
+    "best-practices": 0.83,
+    "seo": 0.97
+  },
+  {
+    "path": "/about/factsheets/page/missing-participants",
+    "score": 0.95,
+    "performance": 1,
+    "accessibility": 0.99,
+    "best-practices": 0.83,
+    "seo": 0.97
+  },
+  {
+    "path": "/about/factsheets/page/multi-facts",
+    "score": 0.91,
+    "performance": 1,
+    "accessibility": 0.91,
+    "best-practices": 0.83,
+    "seo": 0.89
+  },
+  {
+    "path": "/about/factsheets/page/pbgc-facts",
+    "score": 0.9,
+    "performance": 1,
+    "accessibility": 0.89,
+    "best-practices": 0.83,
+    "seo": 0.89
+  },
+  {
+    "path": "/about/factsheets/page/plan-insolvency",
+    "score": 0.93,
+    "performance": 1,
+    "accessibility": 0.99,
+    "best-practices": 0.83,
+    "seo": 0.89
+  },
+  {
+    "path": "/about/factsheets/page/premiums",
+    "score": 0.87,
+    "performance": 0.86,
+    "accessibility": 0.91,
+    "best-practices": 0.83,
+    "seo": 0.89
+  },
+  {
+    "path": "/about/factsheets/page/road-carriers-local-707-pension-fund",
+    "score": 0.88,
+    "performance": 0.91,
+    "accessibility": 0.89,
+    "best-practices": 0.83,
+    "seo": 0.89
+  },
+  {
+    "path": "/about/factsheets/page/termination",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 0.96,
+    "best-practices": 0.83,
+    "seo": 0.97
+  },
+  {
+    "path": "/about/faq",
+    "score": 0.95,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.98
+  },
+  {
+    "path": "/about/faq/delta-asset-re-eval-qa",
+    "score": 0.86,
+    "performance": 1,
+    "accessibility": 0.83,
+    "best-practices": 0.83,
+    "seo": 0.76
+  },
+  {
+    "path": "/about/faq/faq-ual-asset-audit-results-and-changes-participants-benefits",
+    "score": 0.92,
+    "performance": 1,
+    "accessibility": 0.93,
+    "best-practices": 0.83,
+    "seo": 0.9
+  },
+  {
+    "path": "/about/faq/local-805-participants-faq",
+    "score": 0.86,
+    "performance": 1,
+    "accessibility": 0.83,
+    "best-practices": 0.83,
+    "seo": 0.76
+  },
+  {
+    "path": "/about/faq/pg/executor-fact-sheet",
+    "score": 0.87,
+    "performance": 1,
+    "accessibility": 0.83,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/about/faq/pg/frequently-asked-questions-4062",
+    "score": 0.88,
+    "performance": 1,
+    "accessibility": 0.93,
+    "best-practices": 0.83,
+    "seo": 0.76
+  },
+  {
+    "path": "/about/faq/pg/general-faqs-about-pbgc",
+    "score": 0.82,
+    "performance": 0.92,
+    "accessibility": 0.82,
+    "best-practices": 0.83,
+    "seo": 0.69
+  },
+  {
+    "path": "/about/faq/pg/important-changes-to-erisa-section-4062(e)",
+    "score": 0.9,
+    "performance": 1,
+    "accessibility": 0.89,
+    "best-practices": 0.83,
+    "seo": 0.89
+  },
+  {
+    "path": "/about/faq/pg/nortel-plan-specific-faqs",
+    "score": 0.9,
+    "performance": 1,
+    "accessibility": 0.93,
+    "best-practices": 0.83,
+    "seo": 0.83
+  },
+  {
+    "path": "/about/faq/pg/planfundingfaq",
+    "score": 0.85,
+    "performance": 1,
+    "accessibility": 0.83,
+    "best-practices": 0.83,
+    "seo": 0.75
+  },
+  {
+    "path": "/about/faq/pg/premiumfaq",
+    "score": 0.9,
+    "performance": 1,
+    "accessibility": 0.93,
+    "best-practices": 0.83,
+    "seo": 0.83
+  },
+  {
+    "path": "/about/faq/pg/Social-Security-Administration-Potential-Private-Pension-Benefit-Information-Notice-FAQs",
+    "score": 0.87,
+    "performance": 1,
+    "accessibility": 0.83,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/about/faq/questions-and-answers-for-participants-in-the-bricklayers-and-allied-craftsmen-local-7-pension-fund",
+    "score": 0.9,
+    "performance": 1,
+    "accessibility": 0.93,
+    "best-practices": 0.83,
+    "seo": 0.83
+  },
+  {
+    "path": "/about/faq/ufw-partition-faqs",
+    "score": 0.86,
+    "performance": 1,
+    "accessibility": 0.83,
+    "best-practices": 0.83,
+    "seo": 0.76
+  },
+  {
+    "path": "/about/it-modernization-projects/completed-it-modernization-projects",
+    "score": 0.95,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.97
+  },
+  {
+    "path": "/about/jobs/about-the-human-resources-department",
+    "score": 0.91,
+    "performance": 1,
+    "accessibility": 0.91,
+    "best-practices": 0.83,
+    "seo": 0.89
+  },
+  {
+    "path": "/about/jobs/entrance-on-duty-system",
+    "score": 0.9,
+    "performance": 1,
+    "accessibility": 0.89,
+    "best-practices": 0.83,
+    "seo": 0.89
+  },
+  {
+    "path": "/about/jobs/federal-employment-benefits",
+    "score": 0.93,
+    "performance": 1,
+    "accessibility": 0.99,
+    "best-practices": 0.83,
+    "seo": 0.89
+  },
+  {
+    "path": "/about/jobs/pbgc-employment-benefits",
+    "score": 0.9,
+    "performance": 1,
+    "accessibility": 0.89,
+    "best-practices": 0.83,
+    "seo": 0.89
+  },
+  {
+    "path": "/about/not-available",
+    "score": 0.89,
+    "performance": 1,
+    "accessibility": 0.85,
+    "best-practices": 0.83,
+    "seo": 0.89
+  },
+  {
+    "path": "/about/oppsa-home",
+    "score": 0.93,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.75,
+    "seo": 0.97
+  },
+  {
+    "path": "/about/oppsa-home/annual-reports",
+    "score": 0.91,
+    "performance": 1,
+    "accessibility": 0.91,
+    "best-practices": 0.83,
+    "seo": 0.9
+  },
+  {
+    "path": "/about/oppsa-home/faqs",
+    "score": 0.9,
+    "performance": 0.99,
+    "accessibility": 0.93,
+    "best-practices": 0.83,
+    "seo": 0.83
+  },
+  {
+    "path": "/about/oppsa-home/issues-at-a-glance",
+    "score": 0.95,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.97
+  },
+  {
+    "path": "/about/oppsa-home/issues-at-a-glance-archive",
+    "score": 0.95,
+    "performance": 0.99,
+    "accessibility": 0.99,
+    "best-practices": 0.83,
+    "seo": 0.97
+  },
+  {
+    "path": "/about/oppsa/faqs",
+    "score": 0.95,
+    "performance": 1,
+    "accessibility": 0.99,
+    "best-practices": 0.83,
+    "seo": 0.97
+  },
+  {
+    "path": "/about/osdbu",
+    "score": 0.91,
+    "performance": 1,
+    "accessibility": 0.91,
+    "best-practices": 0.83,
+    "seo": 0.89
+  },
+  {
+    "path": "/about/osdbu/contact-osdbu",
+    "score": 0.91,
+    "performance": 1,
+    "accessibility": 0.91,
+    "best-practices": 0.83,
+    "seo": 0.9
+  },
+  {
+    "path": "/about/osdbu/get-ready-to-do-business-with-pbgc",
+    "score": 0.91,
+    "performance": 1,
+    "accessibility": 0.91,
+    "best-practices": 0.83,
+    "seo": 0.9
+  },
+  {
+    "path": "/about/osdbu/pbgc-vendor-information-repository",
+    "score": 0.91,
+    "performance": 1,
+    "accessibility": 0.91,
+    "best-practices": 0.83,
+    "seo": 0.9
+  },
+  {
+    "path": "/about/osdbu/small-business-goals",
+    "score": 0.95,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.97
+  },
+  {
+    "path": "/about/osdbu/small-business-resources",
+    "score": 0.94,
+    "performance": 0.95,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.97
+  },
+  {
+    "path": "/about/pbgc-in-plain-english",
+    "score": 0.95,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.97
+  },
+  {
+    "path": "/about/pg/contact/another-way-to-get-in-touch",
+    "score": 0.95,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.97
+  },
+  {
+    "path": "/about/pg/contact/contact",
+    "score": 0.87,
+    "performance": 0.89,
+    "accessibility": 0.85,
+    "best-practices": 0.83,
+    "seo": 0.9
+  },
+  {
+    "path": "/about/pg/contact/contact-prac",
+    "score": 0.9,
+    "performance": 1,
+    "accessibility": 0.89,
+    "best-practices": 0.83,
+    "seo": 0.89
+  },
+  {
+    "path": "/about/pg/contact/contact-unclaimed",
+    "score": 0.95,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.97
+  },
+  {
+    "path": "/about/pg/contact/experiencing-unresolved-service-issue",
+    "score": 0.95,
+    "performance": 1,
+    "accessibility": 0.99,
+    "best-practices": 0.83,
+    "seo": 0.97
+  },
+  {
+    "path": "/about/pg/contact/vendorcontact",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 0.96,
+    "best-practices": 0.83,
+    "seo": 0.97
+  },
+  {
+    "path": "/about/pg/footer/aba",
+    "score": 0.95,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.97
+  },
+  {
+    "path": "/about/pg/footer/actuarial-rfp-documents",
+    "score": 0.86,
+    "performance": 0.92,
+    "accessibility": 0.87,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/about/pg/footer/disclaimer",
+    "score": 0.89,
+    "performance": 1,
+    "accessibility": 0.89,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/about/pg/footer/eeo",
+    "score": 0.95,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.97
+  },
+  {
+    "path": "/about/pg/footer/eeo/eeo-data-report-for-october-1-2005-through-december-31-2005",
+    "score": 0.95,
+    "performance": 1,
+    "accessibility": 0.99,
+    "best-practices": 0.83,
+    "seo": 0.97
+  },
+  {
+    "path": "/about/pg/footer/eeo/eeo-data-report-for-october-1-2005-through-september-30-2005",
+    "score": 0.95,
+    "performance": 1,
+    "accessibility": 0.99,
+    "best-practices": 0.83,
+    "seo": 0.97
+  },
+  {
+    "path": "/about/pg/footer/foia",
+    "score": 0.91,
+    "performance": 1,
+    "accessibility": 0.91,
+    "best-practices": 0.83,
+    "seo": 0.9
+  },
+  {
+    "path": "/about/pg/footer/foia/foia-annual-reports",
+    "score": 0.95,
+    "performance": 1,
+    "accessibility": 0.99,
+    "best-practices": 0.83,
+    "seo": 0.98
+  },
+  {
+    "path": "/about/pg/footer/foia/foiacontact",
+    "score": 0.95,
+    "performance": 1,
+    "accessibility": 0.99,
+    "best-practices": 0.83,
+    "seo": 0.97
+  },
+  {
+    "path": "/about/pg/footer/foia/fy-2009-foia-annual-report-data-files",
+    "score": 0.85,
+    "performance": 1,
+    "accessibility": 0.89,
+    "best-practices": 0.67,
+    "seo": 0.82
+  },
+  {
+    "path": "/about/pg/footer/foia/income-verification-request-procedures",
+    "score": 0.92,
+    "performance": 1,
+    "accessibility": 0.93,
+    "best-practices": 0.83,
+    "seo": 0.9
+  },
+  {
+    "path": "/about/pg/footer/no-fear-act-data",
+    "score": 0.9,
+    "performance": 0.98,
+    "accessibility": 0.9,
+    "best-practices": 0.83,
+    "seo": 0.89
+  },
+  {
+    "path": "/about/pg/footer/no-fear-act-data/no-fear-act-data-october-october-1-2005-through-june-30-2006",
+    "score": 0.95,
+    "performance": 1,
+    "accessibility": 0.99,
+    "best-practices": 0.83,
+    "seo": 0.97
+  },
+  {
+    "path": "/about/pg/footer/no-fear-act-data/no-fear-act-data-report-for-october-1-2000-through-september-30-2001",
+    "score": 0.91,
+    "performance": 1,
+    "accessibility": 0.9,
+    "best-practices": 0.83,
+    "seo": 0.89
+  },
+  {
+    "path": "/about/pg/footer/no-fear-act-data/no-fear-act-data-report-for-october-1-2001-through-september-30-2002",
+    "score": 0.91,
+    "performance": 1,
+    "accessibility": 0.9,
+    "best-practices": 0.83,
+    "seo": 0.89
+  },
+  {
+    "path": "/about/pg/footer/no-fear-act-data/no-fear-act-data-report-for-october-1-2002-through-september-30-2003",
+    "score": 0.95,
+    "performance": 1,
+    "accessibility": 0.99,
+    "best-practices": 0.83,
+    "seo": 0.97
+  },
+  {
+    "path": "/about/pg/footer/no-fear-act-data/no-fear-act-data-report-for-october-1-2003-through-september-30-2004",
+    "score": 0.91,
+    "performance": 1,
+    "accessibility": 0.9,
+    "best-practices": 0.83,
+    "seo": 0.89
+  },
+  {
+    "path": "/about/pg/footer/no-fear-act-data/no-fear-act-data-report-for-october-1-2004-through-september-30-2005",
+    "score": 0.91,
+    "performance": 1,
+    "accessibility": 0.9,
+    "best-practices": 0.83,
+    "seo": 0.89
+  },
+  {
+    "path": "/about/pg/footer/no-fear-act-notice",
+    "score": 0.92,
+    "performance": 1,
+    "accessibility": 0.96,
+    "best-practices": 0.83,
+    "seo": 0.89
+  },
+  {
+    "path": "/about/pg/other/how-pension-plans-end",
+    "score": 0.9,
+    "performance": 1,
+    "accessibility": 0.87,
+    "best-practices": 0.83,
+    "seo": 0.89
+  },
+  {
+    "path": "/about/pg/other/memorandum",
+    "score": 0.95,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.97
+  },
+  {
+    "path": "/about/pg/other/nontrusteed",
+    "score": 0.95,
+    "performance": 1,
+    "accessibility": 0.99,
+    "best-practices": 0.83,
+    "seo": 0.97
+  },
+  {
+    "path": "/about/pg/other/pensionend",
+    "score": 0.91,
+    "performance": 1,
+    "accessibility": 0.91,
+    "best-practices": 0.83,
+    "seo": 0.9
+  },
+  {
+    "path": "/about/pg/other/requesting-a-summary-plan-description",
+    "score": 0.91,
+    "performance": 1,
+    "accessibility": 0.89,
+    "best-practices": 0.83,
+    "seo": 0.9
+  },
+  {
+    "path": "/about/pg/other/search-tips",
+    "score": 0.91,
+    "performance": 1,
+    "accessibility": 0.91,
+    "best-practices": 0.83,
+    "seo": 0.89
+  },
+  {
+    "path": "/about/pg/other/view-pdf-files-using-adobe-acrobat-reader",
+    "score": 0.9,
+    "performance": 1,
+    "accessibility": 0.87,
+    "best-practices": 0.83,
+    "seo": 0.89
+  },
+  {
+    "path": "/about/pg/other/xml-tools",
+    "score": 0.95,
+    "performance": 1,
+    "accessibility": 0.99,
+    "best-practices": 0.83,
+    "seo": 0.97
+  },
+  {
+    "path": "/about/pg/pbgc-legislative-affairs",
+    "score": 0.91,
+    "performance": 0.98,
+    "accessibility": 0.93,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/about/pg/setting-pbgc-premiums",
+    "score": 0.93,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.75,
+    "seo": 0.97
+  },
+  {
+    "path": "/about/policies",
+    "score": 0.95,
+    "performance": 1,
+    "accessibility": 0.99,
+    "best-practices": 0.83,
+    "seo": 0.97
+  },
+  {
+    "path": "/about/policies/pg/customer-service",
+    "score": 0.95,
+    "performance": 0.99,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.97
+  },
+  {
+    "path": "/about/policies/pg/customer-service-pledge",
+    "score": 0.87,
+    "performance": 0.88,
+    "accessibility": 0.89,
+    "best-practices": 0.83,
+    "seo": 0.89
+  },
+  {
+    "path": "/about/policies/pg/participant-privacy-act-notice",
+    "score": 0.93,
+    "performance": 1,
+    "accessibility": 0.99,
+    "best-practices": 0.83,
+    "seo": 0.89
+  },
+  {
+    "path": "/about/policies/pg/pbgc-assistance-in-other-languages",
+    "score": 0.94,
+    "performance": 0.93,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.98
+  },
+  {
+    "path": "/about/policies/pg/pbgc-web-site-policies-and-procedures",
+    "score": 0.95,
+    "performance": 0.98,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.97
+  },
+  {
+    "path": "/about/policies/pg/privacy-at-pbgc/collection-storage-and-disclosure-of-personal-information",
+    "score": 0.91,
+    "performance": 1,
+    "accessibility": 0.91,
+    "best-practices": 0.83,
+    "seo": 0.9
+  },
+  {
+    "path": "/about/policies/pg/privacy-at-pbgc/cookies",
+    "score": 0.95,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.97
+  },
+  {
+    "path": "/about/policies/pg/privacy-at-pbgc/non-personal-information-collected-by-online-resources",
+    "score": 0.95,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.97
+  },
+  {
+    "path": "/about/policies/pg/privacy-at-pbgc/online-privacy",
+    "score": 0.95,
+    "performance": 1,
+    "accessibility": 0.99,
+    "best-practices": 0.83,
+    "seo": 0.97
+  },
+  {
+    "path": "/about/policies/pg/privacy-at-pbgc/participant-privacy-act-notice",
+    "score": 0.95,
+    "performance": 1,
+    "accessibility": 0.99,
+    "best-practices": 0.83,
+    "seo": 0.97
+  },
+  {
+    "path": "/about/policies/pg/privacy-at-pbgc/privacy-impact-assessments",
+    "score": 0.94,
+    "performance": 0.97,
+    "accessibility": 0.99,
+    "best-practices": 0.83,
+    "seo": 0.97
+  },
+  {
+    "path": "/about/policies/pg/privacy-at-pbgc/system-of-records-notices",
+    "score": 0.95,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.98
+  },
+  {
+    "path": "/about/policies/pg/privacy-policy",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 0.96,
+    "best-practices": 0.83,
+    "seo": 0.97
+  },
+  {
+    "path": "/about/policies/pg/privacy-policy-new/make-a-privacy-act-request",
+    "score": 0.93,
+    "performance": 1,
+    "accessibility": 0.99,
+    "best-practices": 0.83,
+    "seo": 0.89
+  },
+  {
+    "path": "/about/policies/pg/privacy/third-party-companies",
+    "score": 0.95,
+    "performance": 1,
+    "accessibility": 0.99,
+    "best-practices": 0.83,
+    "seo": 0.96
+  },
+  {
+    "path": "/about/policies/pg/small-business-non-retaliation-policy",
+    "score": 0.92,
+    "performance": 1,
+    "accessibility": 0.96,
+    "best-practices": 0.83,
+    "seo": 0.89
+  },
+  {
+    "path": "/about/policies/pg/summary-of-privacy-act",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 0.96,
+    "best-practices": 0.83,
+    "seo": 0.97
+  },
+  {
+    "path": "/about/procurement/procurement-management-directives",
+    "score": 0.95,
+    "performance": 0.99,
+    "accessibility": 0.99,
+    "best-practices": 0.83,
+    "seo": 0.97
+  },
+  {
+    "path": "/about/projections-report/map-21-fy-2017-pims-peer-review",
+    "score": 0.9,
+    "performance": 1,
+    "accessibility": 0.89,
+    "best-practices": 0.83,
+    "seo": 0.89
+  },
+  {
+    "path": "/about/projections-report/pension-insurance-modeling-system",
+    "score": 0.95,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.98
+  },
+  {
+    "path": "/about/projections-report/pension-insurance-modeling-system/2013-map-21-peer-reviews",
+    "score": 0.88,
+    "performance": 0.91,
+    "accessibility": 0.89,
+    "best-practices": 0.83,
+    "seo": 0.9
+  },
+  {
+    "path": "/about/projections-report/pension-insurance-modeling-system/2014-map-21-peer-reviews",
+    "score": 0.95,
+    "performance": 1,
+    "accessibility": 0.99,
+    "best-practices": 0.83,
+    "seo": 0.97
+  },
+  {
+    "path": "/about/projections-report/pension-insurance-modeling-system/2015-map-21-peer-reviews",
+    "score": 0.88,
+    "performance": 0.91,
+    "accessibility": 0.89,
+    "best-practices": 0.83,
+    "seo": 0.89
+  },
+  {
+    "path": "/about/projections-report/pension-insurance-modeling-system/2016-MAP-21-Peer-Reviews",
+    "score": 0.94,
+    "performance": 0.95,
+    "accessibility": 0.99,
+    "best-practices": 0.83,
+    "seo": 0.97
+  },
+  {
+    "path": "/about/projections-report/pension-insurance-modeling-system/a-brief-history-of-pims",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 0.96,
+    "best-practices": 0.83,
+    "seo": 0.97
+  },
+  {
+    "path": "/about/projections-report/pension-insurance-modeling-system/how-pims-results-reflect-varying-rates-of",
+    "score": 0.9,
+    "performance": 1,
+    "accessibility": 0.89,
+    "best-practices": 0.83,
+    "seo": 0.89
+  },
+  {
+    "path": "/about/projections-report/pension-insurance-modeling-system/projection-of-levels-of-future-active",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 0.96,
+    "best-practices": 0.83,
+    "seo": 0.97
+  },
+  {
+    "path": "/about/projections-report/projections-report-faq",
+    "score": 0.88,
+    "performance": 1,
+    "accessibility": 0.91,
+    "best-practices": 0.83,
+    "seo": 0.76
+  },
+  {
+    "path": "/about/who-we-are/pg/advisory-committee",
+    "score": 0.95,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.97
+  },
+  {
+    "path": "/about/who-we-are/pg/board-of-directors-meeting-minutes",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 0.99,
+    "best-practices": 0.83,
+    "seo": 0.94
+  },
+  {
+    "path": "/about/who-we-are/pg/board-of-directors-meeting-minutes/bod-meeting-minutes-06142016",
+    "score": 0.95,
+    "performance": 1,
+    "accessibility": 0.99,
+    "best-practices": 0.83,
+    "seo": 0.97
+  },
+  {
+    "path": "/about/who-we-are/pg/board-of-directors-meeting-minutes/bod-meeting-minutes-062714",
+    "score": 0.9,
+    "performance": 1,
+    "accessibility": 0.89,
+    "best-practices": 0.83,
+    "seo": 0.89
+  },
+  {
+    "path": "/about/who-we-are/pg/board-of-directors-meeting-minutes/bod-meeting-minutes-07232021",
+    "score": 0.95,
+    "performance": 1,
+    "accessibility": 0.99,
+    "best-practices": 0.83,
+    "seo": 0.97
+  },
+  {
+    "path": "/about/who-we-are/pg/board-of-directors-meeting-minutes/bod-meeting-minutes-07242018",
+    "score": 0.9,
+    "performance": 1,
+    "accessibility": 0.89,
+    "best-practices": 0.83,
+    "seo": 0.89
+  },
+  {
+    "path": "/about/who-we-are/pg/board-of-directors-meeting-minutes/bod-meeting-minutes-080613",
+    "score": 0.95,
+    "performance": 1,
+    "accessibility": 0.99,
+    "best-practices": 0.83,
+    "seo": 0.97
+  },
+  {
+    "path": "/about/who-we-are/pg/board-of-directors-meeting-minutes/bod-meeting-minutes-09212017",
+    "score": 0.95,
+    "performance": 1,
+    "accessibility": 0.99,
+    "best-practices": 0.83,
+    "seo": 0.97
+  },
+  {
+    "path": "/about/who-we-are/pg/board-of-directors-meeting-minutes/bod-meeting-minutes-09282022",
+    "score": 0.95,
+    "performance": 1,
+    "accessibility": 0.99,
+    "best-practices": 0.83,
+    "seo": 0.97
+  },
+  {
+    "path": "/about/who-we-are/pg/board-of-directors-meeting-minutes/bod-meeting-minutes-121212",
+    "score": 0.95,
+    "performance": 1,
+    "accessibility": 0.99,
+    "best-practices": 0.83,
+    "seo": 0.97
+  },
+  {
+    "path": "/about/who-we-are/pg/director",
+    "score": 0.93,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.75,
+    "seo": 0.97
+  },
+  {
+    "path": "/about/who-we-are/pg/executive-staff",
+    "score": 0.87,
+    "performance": 1,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.83
+  },
+  {
+    "path": "/about/who-we-are/pg/past-pbgc-directors-and-executive-directors",
+    "score": 0.95,
+    "performance": 1,
+    "accessibility": 0.99,
+    "best-practices": 0.83,
+    "seo": 0.97
+  },
+  {
+    "path": "/about/who-we-are/pg/pbgc-departments",
+    "score": 0.94,
+    "performance": 0.97,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.97
+  },
+  {
+    "path": "/about/who-we-are/pg/pbgc-strategic-goals-and-outcomes-fy-2006-2011",
+    "score": 0.95,
+    "performance": 1,
+    "accessibility": 0.99,
+    "best-practices": 0.83,
+    "seo": 0.97
+  },
+  {
+    "path": "/about/who-we-are/pg/president-ford-signing-erisa-of-1974",
+    "score": 0.88,
+    "performance": 1,
+    "accessibility": 0.89,
+    "best-practices": 0.75,
+    "seo": 0.89
+  },
+  {
+    "path": "/about/who-we-are/retirement-matters/post/2013/03/27/FAQs-Were-glad-you-asked!",
+    "score": 0.95,
+    "performance": 1,
+    "accessibility": 0.99,
+    "best-practices": 0.83,
+    "seo": 0.97
+  },
+  {
+    "path": "/about/who-we-are/retirement-matters/post/2013/04/17/What-is-a-Pension",
+    "score": 0.9,
+    "performance": 1,
+    "accessibility": 0.89,
+    "best-practices": 0.83,
+    "seo": 0.89
+  },
+  {
+    "path": "/advocate",
+    "score": 0.93,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.75,
+    "seo": 0.97
+  },
+  {
+    "path": "/advocate/advocate-biography",
+    "score": 0.91,
+    "performance": 0.98,
+    "accessibility": 0.91,
+    "best-practices": 0.83,
+    "seo": 0.9
+  },
+  {
+    "path": "/advocate/annual-reports",
+    "score": 0.95,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.97
+  },
+  {
+    "path": "/advocate/faqs",
+    "score": 0.95,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.97
+  },
+  {
+    "path": "/advocate/issues-at-a-glance",
+    "score": 0.91,
+    "performance": 0.99,
+    "accessibility": 0.91,
+    "best-practices": 0.83,
+    "seo": 0.9
+  },
+  {
+    "path": "/advocate/issues-at-a-glance-archive",
+    "score": 0.91,
+    "performance": 1,
+    "accessibility": 0.91,
+    "best-practices": 0.83,
+    "seo": 0.9
+  },
+  {
+    "path": "/american-rescue-plan-act-of-2021",
+    "score": 0.95,
+    "performance": 1,
+    "accessibility": 0.99,
+    "best-practices": 0.83,
+    "seo": 0.97
+  },
+  {
+    "path": "/annual-funding-notice",
+    "score": 0.95,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.96
+  },
+  {
+    "path": "/archive/4062e-settlement-agreements",
+    "score": 0.88,
+    "performance": 0.91,
+    "accessibility": 0.88,
+    "best-practices": 0.83,
+    "seo": 0.89
+  },
+  {
+    "path": "/arp-faqs",
+    "score": 0.9,
+    "performance": 0.99,
+    "accessibility": 0.93,
+    "best-practices": 0.83,
+    "seo": 0.84
+  },
+  {
+    "path": "/arp-sfa",
+    "score": 0.95,
+    "performance": 1,
+    "accessibility": 0.99,
+    "best-practices": 0.83,
+    "seo": 0.97
+  },
+  {
+    "path": "/arp-sfa/more-resources",
+    "score": 0.9,
+    "performance": 0.98,
+    "accessibility": 0.89,
+    "best-practices": 0.83,
+    "seo": 0.9
+  },
+  {
+    "path": "/arp-sfa/priority-group-6-plan-list",
+    "score": 0.95,
+    "performance": 1,
+    "accessibility": 0.99,
+    "best-practices": 0.83,
+    "seo": 0.97
+  },
+  {
+    "path": "/arp-sfa/sfa-applications",
+    "score": 0.9,
+    "performance": 0.97,
+    "accessibility": 0.9,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/arp-sfa/webinars",
+    "score": 0.78,
+    "performance": 0.57,
+    "accessibility": 0.91,
+    "best-practices": 0.75,
+    "seo": 0.89
+  },
+  {
+    "path": "/denied",
+    "score": 0.88,
+    "performance": 0.9,
+    "accessibility": 0.89,
+    "best-practices": 0.83,
+    "seo": 0.89
+  },
+  {
+    "path": "/es",
+    "score": 0.84,
+    "performance": 0.9,
+    "accessibility": 0.88,
+    "best-practices": 0.75,
+    "seo": 0.84
+  },
+  {
+    "path": "/es/administrar-beneficio/actualizar-direccion-u-otra-informacion-personal",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 0.96,
+    "best-practices": 0.83,
+    "seo": 0.98
+  },
+  {
+    "path": "/es/administrar-beneficio/cambiar-retencion-impuestos-federales",
+    "score": 0.95,
+    "performance": 1,
+    "accessibility": 0.97,
+    "best-practices": 0.83,
+    "seo": 0.98
+  },
+  {
+    "path": "/es/administrar-beneficio/designe-un-poder-legal",
+    "score": 0.95,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 0.83,
+    "seo": 0.98
+  },
+  {
+    "path": "/es/administrar-beneficio/fechas-de-pagos-de-pbgc",
+    "score": 0.95,
+    "performance": 0.99,
+    "accessibility": 0.98,
+    "best-practices": 0.83,
+    "seo": 0.98
+  },
+  {
+    "path": "/es/administrar-beneficio/pagos",
+    "score": 0.95,
+    "performance": 1,
+    "accessibility": 0.96,
+    "best-practices": 0.83,
+    "seo": 0.99
+  },
+  {
+    "path": "/es/administrar-beneficio/qdro",
+    "score": 0.95,
+    "performance": 1,
+    "accessibility": 0.96,
+    "best-practices": 0.83,
+    "seo": 0.99
+  },
+  {
+    "path": "/es/administrar-beneficio/si-usted-ya-esta-recibiendo-beneficios",
+    "score": 0.91,
+    "performance": 1,
+    "accessibility": 0.89,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/es/administrar-beneficio/solicite-o-actualice-deposito-directo",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 0.96,
+    "best-practices": 0.83,
+    "seo": 0.98
+  },
+  {
+    "path": "/es/apelaciones",
+    "score": 0.9,
+    "performance": 1,
+    "accessibility": 0.96,
+    "best-practices": 0.75,
+    "seo": 0.9
+  },
+  {
+    "path": "/es/apelaciones/como-apelar-determinaciones-formales",
+    "score": 0.92,
+    "performance": 0.96,
+    "accessibility": 0.96,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/es/apelaciones/decisiones-de-la-junta-de-apelaciones",
+    "score": 0.9,
+    "performance": 1,
+    "accessibility": 0.85,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/es/apelaciones/formularios-para-apelar-determinaciones-de-beneficios",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 0.96,
+    "best-practices": 0.83,
+    "seo": 0.98
+  },
+  {
+    "path": "/es/apelaciones/junta-de-apelaciones",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 0.96,
+    "best-practices": 0.83,
+    "seo": 0.98
+  },
+  {
+    "path": "/es/apelaciones/su-derecho-de-apelar",
+    "score": 0.95,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 0.83,
+    "seo": 0.98
+  },
+  {
+    "path": "/es/arp-faqs",
+    "score": 0.84,
+    "performance": 1,
+    "accessibility": 0.82,
+    "best-practices": 0.83,
+    "seo": 0.7
+  },
+  {
+    "path": "/es/beneficiarios/beneficiarios-como-reportar-el-fallecimiento-de-un-participante",
+    "score": 0.95,
+    "performance": 1,
+    "accessibility": 0.96,
+    "best-practices": 0.83,
+    "seo": 0.99
+  },
+  {
+    "path": "/es/beneficiarios/informacion-para-los-albaceas-o-administradores-de-herencias",
+    "score": 0.87,
+    "performance": 1,
+    "accessibility": 0.82,
+    "best-practices": 0.83,
+    "seo": 0.84
+  },
+  {
+    "path": "/es/bienvenido",
+    "score": 0.9,
+    "performance": 1,
+    "accessibility": 0.87,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/es/comenzar-beneficio/beneficios",
+    "score": 0.91,
+    "performance": 1,
+    "accessibility": 0.89,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/es/comenzar-beneficio/como-conseguir-la-estimacion-de-un-beneficio-de-pension-de-pbgc",
+    "score": 0.91,
+    "performance": 1,
+    "accessibility": 0.89,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/es/comenzar-beneficio/designe-un-beneficiario",
+    "score": 0.93,
+    "performance": 1,
+    "accessibility": 0.96,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/es/comenzar-beneficio/solicite-sus-beneficios-de-pension",
+    "score": 0.95,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 0.83,
+    "seo": 0.98
+  },
+  {
+    "path": "/es/comenzar-beneficio/sus-opciones-de-beneficios-de-pbgc",
+    "score": 0.91,
+    "performance": 0.99,
+    "accessibility": 0.91,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/es/comenzar-beneficio/tabla-de-garantias-mensuales-maximas",
+    "score": 0.89,
+    "performance": 0.92,
+    "accessibility": 0.89,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/es/defensor/archivo-de-asuntos",
+    "score": 0.91,
+    "performance": 1,
+    "accessibility": 0.89,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/es/defensor/informes-anuales",
+    "score": 0.91,
+    "performance": 1,
+    "accessibility": 0.89,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/es/defensor/preguntas-frecuentes",
+    "score": 0.95,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 0.83,
+    "seo": 0.99
+  },
+  {
+    "path": "/es/defensor/reseña-de-asuntos",
+    "score": 0.91,
+    "performance": 1,
+    "accessibility": 0.89,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/es/es/beneficios/sugerencias-para-encontrar-un-beneficio-de pensión-perdido",
+    "score": 0.95,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 0.83,
+    "seo": 0.98
+  },
+  {
+    "path": "/es/es/fecha-de-comienzo-requerida",
+    "score": 0.95,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 0.83,
+    "seo": 0.98
+  },
+  {
+    "path": "/es/info-pbgc/como-localizar-participantes-cuando-su-plan-se-termina",
+    "score": 0.95,
+    "performance": 1,
+    "accessibility": 0.97,
+    "best-practices": 0.83,
+    "seo": 0.98
+  },
+  {
+    "path": "/es/info-pbgc/como-opera-pbgc",
+    "score": 0.91,
+    "performance": 1,
+    "accessibility": 0.89,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/es/info-pbgc/foia",
+    "score": 0.95,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 0.83,
+    "seo": 0.98
+  },
+  {
+    "path": "/es/info-pbgc/notificacion-de-la-ley-de-privacidad-del-participante",
+    "score": 0.9,
+    "performance": 1,
+    "accessibility": 0.87,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/es/info-pbgc/oficina-del-defensor-de-participantes-y-patrocinadores-de-planes-de-pbgc",
+    "score": 0.95,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 0.83,
+    "seo": 0.99
+  },
+  {
+    "path": "/es/info-pbgc/privacidad-en-pbgc",
+    "score": 0.9,
+    "performance": 1,
+    "accessibility": 0.87,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/es/info-pbgc/quienes-somos-nuestra-mision",
+    "score": 0.9,
+    "performance": 1,
+    "accessibility": 0.91,
+    "best-practices": 0.83,
+    "seo": 0.84
+  },
+  {
+    "path": "/es/info-pbgc/transacciones",
+    "score": 0.87,
+    "performance": 1,
+    "accessibility": 0.82,
+    "best-practices": 0.83,
+    "seo": 0.84
+  },
+  {
+    "path": "/es/mypba",
+    "score": 0.84,
+    "performance": 0.91,
+    "accessibility": 0.88,
+    "best-practices": 0.67,
+    "seo": 0.91
+  },
+  {
+    "path": "/es/mypbafaq",
+    "score": 0.87,
+    "performance": 0.98,
+    "accessibility": 0.91,
+    "best-practices": 0.83,
+    "seo": 0.77
+  },
+  {
+    "path": "/Questions-and-Answers-for-Dean-Foods-Participants",
+    "score": 0.87,
+    "performance": 1,
+    "accessibility": 0.83,
+    "best-practices": 0.83,
+    "seo": 0.83
+  },
+  {
+    "path": "/Questions-and-Answers-for-Sears-Participants",
+    "score": 0.87,
+    "performance": 0.99,
+    "accessibility": 0.83,
+    "best-practices": 0.83,
+    "seo": 0.84
+  }
+]
