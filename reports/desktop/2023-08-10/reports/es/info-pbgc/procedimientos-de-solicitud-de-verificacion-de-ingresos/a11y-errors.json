@@ -1,0 +1,332 @@
+[
+  {
+    "id": "aria-allowed-attr",
+    "title": "`[aria-*]` attributes do not match their roles",
+    "description": "Each ARIA `role` supports a specific subset of `aria-*` attributes. Mismatching these invalidates the `aria-*` attributes. [Learn more](https://web.dev/aria-allowed-attr/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-155-DIV",
+            "path": "1,HTML,1,BODY,2,DIV,3,MAIN,0,DIV,3,DIV,0,DIV,1,DIV,0,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,1,DIV,0,DIV,0,DIV,1,DIV",
+            "selector": "div.pbgc-faq-section > div > div.paragraph > div.usa-accordion",
+            "boundingRect": {
+              "top": 1569,
+              "bottom": 2067,
+              "left": 107,
+              "right": 1243,
+              "width": 1136,
+              "height": 498
+            },
+            "snippet": "<div class=\"usa-accordion\" aria-multiselectable=\"false\">",
+            "nodeLabel": "¿Cómo puedo obtener una carta de verificación de ingresos?\n\nSi en la actualidad…",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-multiselectable=\"false\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-156-SPAN",
+            "path": "1,HTML,1,BODY,2,DIV,3,MAIN,0,DIV,3,DIV,0,DIV,2,DIV,0,DIV,0,P,0,A,0,SPAN",
+            "selector": "div.field > p > a.pbgcSurvey > span.pbgcSurveyBadgeLabel",
+            "boundingRect": {
+              "top": 338,
+              "bottom": 499,
+              "left": 1311,
+              "right": 1327,
+              "width": 16,
+              "height": 161
+            },
+            "snippet": "<span class=\"pbgcSurveyBadgeLabel\" style=\"color:#fff\">",
+            "nodeLabel": "Déjenos sus comentarios",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.19 (foreground color: #ffffff, background color: #f39c12, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-95-A",
+                  "path": "1,HTML,1,BODY,2,DIV,3,MAIN,0,DIV,3,DIV,0,DIV,2,DIV,0,DIV,0,P,0,A",
+                  "selector": "div#block-spanishoptinsurvey > div.field > p > a.pbgcSurvey",
+                  "boundingRect": {
+                    "top": 327,
+                    "bottom": 510,
+                    "left": 1297,
+                    "right": 1342,
+                    "width": 45,
+                    "height": 183
+                  },
+                  "snippet": "<a aria-label=\"Your Feedback, opens dialog\" class=\"pbgcSurvey pbgcSurveybadge--default pbgcSurveybadge--large pbgcSurveymiddl…\" onclick=\"window.open('https://cfigroupfed.gov1.qualtrics.com/jfe/form/SV_bxOB6OjfpP…\" role=\"button\" style=\"display: block; overflow: hidden; background-color: rgb(243, 156, 18);\" tabindex=\"0\">",
+                  "nodeLabel": "Déjenos sus comentarios"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "duplicate-id-active",
+    "title": "`[id]` attributes on active, focusable elements are not unique",
+    "description": "All focusable elements must have a unique `id` to ensure that they're visible to assistive technologies. [Learn more](https://web.dev/duplicate-id-active/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-157-INPUT",
+            "path": "1,HTML,1,BODY,2,DIV,2,DIV,0,HEADER,1,NAV,0,DIV,1,FORM,0,DIV,0,INPUT",
+            "selector": "div.usa-nav__inner > form#search-block-form > div > input#extended-search-field-small",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 0,
+              "left": 0,
+              "right": 0,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<input class=\"usa-input\" id=\"extended-search-field-small\" type=\"search\" name=\"key\" placeholder=\"Buscar\">",
+            "nodeLabel": "div.usa-nav__inner > form#search-block-form > div > input#extended-search-field-small",
+            "explanation": "Fix any of the following:\n  Document has active elements with the same id attribute: extended-search-field-small"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-146-INPUT",
+                  "path": "1,HTML,1,BODY,2,DIV,2,DIV,0,HEADER,1,NAV,0,DIV,3,DIV,1,FORM,0,DIV,0,INPUT",
+                  "selector": "div.usa-nav__secondary > form#search-block-form > div > input#extended-search-field-small",
+                  "boundingRect": {
+                    "top": 102,
+                    "bottom": 134,
+                    "left": 909,
+                    "right": 1179,
+                    "width": 270,
+                    "height": 32
+                  },
+                  "snippet": "<input class=\"usa-input\" id=\"extended-search-field-small\" type=\"search\" name=\"key\" placeholder=\"Buscar\">",
+                  "nodeLabel": "div.usa-nav__secondary > form#search-block-form > div > input#extended-search-field-small"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.parsing",
+          "wcag2a",
+          "wcag411"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "listitem",
+    "title": "List items (`<li>`) are not contained within `<ul>` or `<ol>` parent elements.",
+    "description": "Screen readers require list items (`<li>`) to be contained within a parent `<ul>` or `<ol>` to be announced properly. [Learn more](https://web.dev/listitem/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-158-LI",
+            "path": "1,HTML,1,BODY,2,DIV,2,DIV,0,HEADER,1,NAV,0,DIV,2,UL,0,LI",
+            "selector": "nav.usa-nav > div.usa-nav__inner > ul.usa-nav__primary > li.usa-nav__primary-item",
+            "boundingRect": {
+              "top": 152,
+              "bottom": 198,
+              "left": 91,
+              "right": 250,
+              "width": 159,
+              "height": 46
+            },
+            "snippet": "<li class=\"usa-nav__primary-item\">",
+            "nodeLabel": "Acerca de PBGC",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-159-LI",
+            "path": "1,HTML,1,BODY,2,DIV,2,DIV,0,HEADER,1,NAV,0,DIV,2,UL,1,LI",
+            "selector": "nav.usa-nav > div.usa-nav__inner > ul.usa-nav__primary > li.usa-nav__primary-item",
+            "boundingRect": {
+              "top": 152,
+              "bottom": 198,
+              "left": 250,
+              "right": 368,
+              "width": 118,
+              "height": 46
+            },
+            "snippet": "<li class=\"usa-nav__primary-item\">",
+            "nodeLabel": "Beneficios",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-160-LI",
+            "path": "1,HTML,1,BODY,2,DIV,2,DIV,0,HEADER,1,NAV,0,DIV,2,UL,2,LI",
+            "selector": "nav.usa-nav > div.usa-nav__inner > ul.usa-nav__primary > li.usa-nav__primary-item",
+            "boundingRect": {
+              "top": 152,
+              "bottom": 198,
+              "left": 368,
+              "right": 524,
+              "width": 156,
+              "height": 46
+            },
+            "snippet": "<li class=\"usa-nav__primary-item\">",
+            "nodeLabel": "Planes de PBGC",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-161-LI",
+            "path": "1,HTML,1,BODY,2,DIV,2,DIV,0,HEADER,1,NAV,0,DIV,2,UL,3,LI",
+            "selector": "nav.usa-nav > div.usa-nav__inner > ul.usa-nav__primary > li.usa-nav__primary-item",
+            "boundingRect": {
+              "top": 152,
+              "bottom": 198,
+              "left": 524,
+              "right": 634,
+              "width": 110,
+              "height": 46
+            },
+            "snippet": "<li class=\"usa-nav__primary-item\">",
+            "nodeLabel": "Recursos",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-162-LI",
+            "path": "1,HTML,1,BODY,2,DIV,2,DIV,0,HEADER,1,NAV,0,DIV,2,UL,4,LI",
+            "selector": "nav.usa-nav > div.usa-nav__inner > ul.usa-nav__primary > li.usa-nav__primary-item",
+            "boundingRect": {
+              "top": 152,
+              "bottom": 198,
+              "left": 634,
+              "right": 716,
+              "width": 82,
+              "height": 46
+            },
+            "snippet": "<li class=\"usa-nav__primary-item\">",
+            "nodeLabel": "MyPBA",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 5
+  }
+]

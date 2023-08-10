@@ -210,7 +210,7 @@
         {
           "node": {
             "type": "node",
-            "lhId": "9-133-SPAN",
+            "lhId": "9-136-SPAN",
             "path": "1,HTML,1,BODY,2,DIV,3,MAIN,0,DIV,3,DIV,0,DIV,2,DIV,0,DIV,0,P,0,A,0,SPAN",
             "selector": "div.field > p > a.pbgcSurvey > span.pbgcSurveyBadgeLabel",
             "boundingRect": {
@@ -248,25 +248,6 @@
               }
             ]
           }
-        },
-        {
-          "node": {
-            "type": "node",
-            "lhId": "9-134-INPUT",
-            "path": "1,HTML,1,BODY,11,DIV,0,DIV,1,DIV,1,DIV,0,INPUT",
-            "selector": "div#cfi_box > div#cfi_button > div > input#cfi_btnNoThanks",
-            "boundingRect": {
-              "top": 645,
-              "bottom": 681,
-              "left": 685,
-              "right": 921,
-              "width": 236,
-              "height": 36
-            },
-            "snippet": "<input type=\"button\" name=\"cfi_btnNoThanks\" value=\"No Thanks\" id=\"cfi_btnNoThanks\" alt=\"No Thanks\" style=\"margin-left:10px;margin-right:10px;\" class=\"cfi_btn_default\" tabindex=\"10006\">",
-            "nodeLabel": "No Thanks",
-            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.4 (foreground color: #e8eff7, background color: #808080, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
-          }
         }
       ],
       "debugData": {
@@ -279,7 +260,7 @@
         ]
       }
     },
-    "errorCount": 2
+    "errorCount": 1
   },
   {
     "id": "definition-list",
@@ -330,7 +311,7 @@
         {
           "node": {
             "type": "node",
-            "lhId": "9-135-INPUT",
+            "lhId": "9-137-INPUT",
             "path": "1,HTML,1,BODY,2,DIV,2,DIV,0,HEADER,1,NAV,0,DIV,1,FORM,0,DIV,0,INPUT",
             "selector": "div.usa-nav__inner > form#search-block-form > div > input#extended-search-field-small",
             "boundingRect": {
@@ -351,7 +332,7 @@
               {
                 "relatedNode": {
                   "type": "node",
-                  "lhId": "9-136-INPUT",
+                  "lhId": "9-134-INPUT",
                   "path": "1,HTML,1,BODY,2,DIV,2,DIV,0,HEADER,1,NAV,0,DIV,3,DIV,1,FORM,0,DIV,0,INPUT",
                   "selector": "div.usa-nav__secondary > form#search-block-form > div > input#extended-search-field-small",
                   "boundingRect": {
@@ -431,7 +412,7 @@
         {
           "node": {
             "type": "node",
-            "lhId": "9-137-H3",
+            "lhId": "9-138-H3",
             "path": "1,HTML,1,BODY,2,DIV,4,FOOTER,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,H3",
             "selector": "div.desktop:grid-col-6 > div._none > div.field > h3",
             "boundingRect": {
@@ -561,7 +542,7 @@
         {
           "node": {
             "type": "node",
-            "lhId": "9-138-LI",
+            "lhId": "9-139-LI",
             "path": "1,HTML,1,BODY,2,DIV,2,DIV,0,HEADER,1,NAV,0,DIV,2,UL,0,LI",
             "selector": "nav.usa-nav > div.usa-nav__inner > ul.usa-nav__primary > li.usa-nav__primary-item",
             "boundingRect": {
@@ -580,7 +561,7 @@
         {
           "node": {
             "type": "node",
-            "lhId": "9-139-LI",
+            "lhId": "9-140-LI",
             "path": "1,HTML,1,BODY,2,DIV,2,DIV,0,HEADER,1,NAV,0,DIV,2,UL,1,LI",
             "selector": "nav.usa-nav > div.usa-nav__inner > ul.usa-nav__primary > li.usa-nav__primary-item",
             "boundingRect": {
@@ -599,7 +580,7 @@
         {
           "node": {
             "type": "node",
-            "lhId": "9-140-LI",
+            "lhId": "9-141-LI",
             "path": "1,HTML,1,BODY,2,DIV,2,DIV,0,HEADER,1,NAV,0,DIV,2,UL,2,LI",
             "selector": "nav.usa-nav > div.usa-nav__inner > ul.usa-nav__primary > li.usa-nav__primary-item",
             "boundingRect": {
@@ -618,7 +599,7 @@
         {
           "node": {
             "type": "node",
-            "lhId": "9-141-LI",
+            "lhId": "9-142-LI",
             "path": "1,HTML,1,BODY,2,DIV,2,DIV,0,HEADER,1,NAV,0,DIV,2,UL,3,LI",
             "selector": "nav.usa-nav > div.usa-nav__inner > ul.usa-nav__primary > li.usa-nav__primary-item",
             "boundingRect": {
@@ -637,7 +618,7 @@
         {
           "node": {
             "type": "node",
-            "lhId": "9-142-LI",
+            "lhId": "9-143-LI",
             "path": "1,HTML,1,BODY,2,DIV,2,DIV,0,HEADER,1,NAV,0,DIV,2,UL,4,LI",
             "selector": "nav.usa-nav > div.usa-nav__inner > ul.usa-nav__primary > li.usa-nav__primary-item",
             "boundingRect": {
@@ -694,149 +675,15 @@
   },
   {
     "id": "tabindex",
-    "title": "Some elements have a `[tabindex]` value greater than 0",
+    "title": "No element has a `[tabindex]` value greater than 0",
     "description": "A value greater than 0 implies an explicit navigation ordering. Although technically valid, this often creates frustrating experiences for users who rely on assistive technologies. [Learn more](https://web.dev/tabindex/).",
-    "score": 0,
+    "score": 1,
     "scoreDisplayMode": "binary",
     "details": {
       "type": "table",
-      "headings": [
-        {
-          "key": "node",
-          "itemType": "node",
-          "subItemsHeading": {
-            "key": "relatedNode",
-            "itemType": "node"
-          },
-          "text": "Failing Elements"
-        }
-      ],
-      "items": [
-        {
-          "node": {
-            "type": "node",
-            "lhId": "9-143-P",
-            "path": "1,HTML,1,BODY,11,DIV,0,DIV,0,DIV,3,P",
-            "selector": "div#cfi_previewForm > div#cfi_box > div#cfi_content > p",
-            "boundingRect": {
-              "top": 427,
-              "bottom": 478,
-              "left": 437,
-              "right": 919,
-              "width": 482,
-              "height": 51
-            },
-            "snippet": "<p tabindex=\"10001\">",
-            "nodeLabel": "Thank you for visiting PBGC.gov. You’ve been randomly selected to take part in …",
-            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
-          }
-        },
-        {
-          "node": {
-            "type": "node",
-            "lhId": "9-144-P",
-            "path": "1,HTML,1,BODY,11,DIV,0,DIV,0,DIV,4,P",
-            "selector": "div#cfi_previewForm > div#cfi_box > div#cfi_content > p",
-            "boundingRect": {
-              "top": 498,
-              "bottom": 575,
-              "left": 437,
-              "right": 919,
-              "width": 482,
-              "height": 77
-            },
-            "snippet": "<p style=\"margin-top: 20px;\" tabindex=\"10002\">",
-            "nodeLabel": "Please take a minute or two to give us your opinions. The feedback you provide …",
-            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
-          }
-        },
-        {
-          "node": {
-            "type": "node",
-            "lhId": "9-145-P",
-            "path": "1,HTML,1,BODY,11,DIV,0,DIV,0,DIV,5,P",
-            "selector": "div#cfi_previewForm > div#cfi_box > div#cfi_content > p",
-            "boundingRect": {
-              "top": 595,
-              "bottom": 629,
-              "left": 437,
-              "right": 919,
-              "width": 482,
-              "height": 34
-            },
-            "snippet": "<p style=\"margin-top: 20px; font-size: 8pt;\" tabindex=\"10003\">",
-            "nodeLabel": "This survey is conducted by an independent company, CFI Group. To view CFI Grou…",
-            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
-          }
-        },
-        {
-          "node": {
-            "type": "node",
-            "lhId": "9-96-A",
-            "path": "1,HTML,1,BODY,11,DIV,0,DIV,0,DIV,5,P,0,EM,1,A",
-            "selector": "div#cfi_content > p > em > a",
-            "boundingRect": {
-              "top": 614,
-              "bottom": 626,
-              "left": 461,
-              "right": 482,
-              "width": 21,
-              "height": 12
-            },
-            "snippet": "<a href=\"https://cfigroup.com/privacy-center/\" target=\"_blank\" rel=\"noopener\" tabindex=\"10004\">",
-            "nodeLabel": "here",
-            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
-          }
-        },
-        {
-          "node": {
-            "type": "node",
-            "lhId": "9-146-INPUT",
-            "path": "1,HTML,1,BODY,11,DIV,0,DIV,1,DIV,0,DIV,0,INPUT",
-            "selector": "div#cfi_box > div#cfi_button > div > input#cfi_btnContinue",
-            "boundingRect": {
-              "top": 645,
-              "bottom": 681,
-              "left": 437,
-              "right": 673,
-              "width": 236,
-              "height": 36
-            },
-            "snippet": "<input type=\"button\" name=\"cfi_btnContinue\" value=\"Continue\" id=\"cfi_btnContinue\" alt=\"Continue\" style=\"margin-left:10px;margin-right:10px;\" class=\"cfi_btn_default\" tabindex=\"10005\">",
-            "nodeLabel": "Continue",
-            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
-          }
-        },
-        {
-          "node": {
-            "type": "node",
-            "lhId": "9-134-INPUT",
-            "path": "1,HTML,1,BODY,11,DIV,0,DIV,1,DIV,1,DIV,0,INPUT",
-            "selector": "div#cfi_box > div#cfi_button > div > input#cfi_btnNoThanks",
-            "boundingRect": {
-              "top": 645,
-              "bottom": 681,
-              "left": 685,
-              "right": 921,
-              "width": 236,
-              "height": 36
-            },
-            "snippet": "<input type=\"button\" name=\"cfi_btnNoThanks\" value=\"No Thanks\" id=\"cfi_btnNoThanks\" alt=\"No Thanks\" style=\"margin-left:10px;margin-right:10px;\" class=\"cfi_btn_default\" tabindex=\"10006\">",
-            "nodeLabel": "No Thanks",
-            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
-          }
-        }
-      ],
-      "debugData": {
-        "type": "debugdata",
-        "impact": "serious",
-        "tags": [
-          "cat.keyboard",
-          "best-practice"
-        ]
-      }
-    },
-    "errorCount": 6
+      "headings": [],
+      "items": []
+    }
   },
   {
     "id": "td-headers-attr",
