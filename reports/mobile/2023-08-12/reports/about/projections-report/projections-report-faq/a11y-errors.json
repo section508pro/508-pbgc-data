@@ -1,0 +1,143 @@
+[
+  {
+    "id": "aria-allowed-attr",
+    "title": "`[aria-*]` attributes do not match their roles",
+    "description": "Each ARIA `role` supports a specific subset of `aria-*` attributes. Mismatching these invalidates the `aria-*` attributes. [Learn more](https://web.dev/aria-allowed-attr/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-197-DIV",
+            "path": "1,HTML,1,BODY,2,DIV,3,MAIN,0,DIV,3,DIV,0,DIV,1,DIV,0,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,DIV,0,DIV,1,DIV",
+            "selector": "div.pbgc-faq-section > div > div.paragraph > div.usa-accordion",
+            "boundingRect": {
+              "top": 535,
+              "bottom": 940,
+              "left": 16,
+              "right": 396,
+              "width": 380,
+              "height": 406
+            },
+            "snippet": "<div class=\"usa-accordion\" aria-multiselectable=\"false\">",
+            "nodeLabel": "What is the Projections Report?\nThe Projections Report provides multi-year proj…",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-multiselectable=\"false\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-198-DIV",
+            "path": "1,HTML,1,BODY,2,DIV,3,MAIN,0,DIV,3,DIV,0,DIV,1,DIV,0,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,1,DIV,1,DIV,0,DIV,1,DIV",
+            "selector": "div.pbgc-faq-section > div > div.paragraph > div.usa-accordion",
+            "boundingRect": {
+              "top": 1007,
+              "bottom": 1324,
+              "left": 16,
+              "right": 396,
+              "width": 380,
+              "height": 318
+            },
+            "snippet": "<div class=\"usa-accordion\" aria-multiselectable=\"false\">",
+            "nodeLabel": "What is a multiemployer plan?\nA multiemployer plan is a collectively bargained …",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-multiselectable=\"false\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-199-DIV",
+            "path": "1,HTML,1,BODY,2,DIV,3,MAIN,0,DIV,3,DIV,0,DIV,1,DIV,0,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,1,DIV,2,DIV,0,DIV,1,DIV",
+            "selector": "div.pbgc-faq-section > div > div.paragraph > div.usa-accordion",
+            "boundingRect": {
+              "top": 1391,
+              "bottom": 1595,
+              "left": 16,
+              "right": 396,
+              "width": 380,
+              "height": 204
+            },
+            "snippet": "<div class=\"usa-accordion\" aria-multiselectable=\"false\">",
+            "nodeLabel": "What is a single-employer plan?\nA single-employer plan is generally a pension p…",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-multiselectable=\"false\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412"
+        ]
+      }
+    },
+    "errorCount": 3
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-200-H3",
+            "path": "1,HTML,1,BODY,2,DIV,3,MAIN,0,DIV,3,DIV,0,DIV,1,DIV,0,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,DIV,0,DIV,0,SPAN,0,DIV,0,H3",
+            "selector": "div.paragraph > span.accordion-description > div.field > h3",
+            "boundingRect": {
+              "top": 474,
+              "bottom": 527,
+              "left": 16,
+              "right": 396,
+              "width": 380,
+              "height": 53
+            },
+            "snippet": "<h3>",
+            "nodeLabel": "General Projections Report Questions",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]
