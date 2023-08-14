@@ -1,0 +1,258 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-194-SPAN",
+            "path": "1,HTML,1,BODY,2,DIV,3,MAIN,0,DIV,3,DIV,0,DIV,1,DIV,0,ARTICLE,0,DIV,3,DIV,0,DIV,0,DIV,0,DIV,4,DIV,0,DIV,0,P,0,A,0,SPAN",
+            "selector": "div.field > p > a.pbgcSurvey > span.pbgcSurveyBadgeLabel",
+            "boundingRect": {
+              "top": 303,
+              "bottom": 399,
+              "left": 373,
+              "right": 389,
+              "width": 16,
+              "height": 96
+            },
+            "snippet": "<span class=\"pbgcSurveyBadgeLabel\" style=\"color:#fff\">",
+            "nodeLabel": "Your Feedback",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.19 (foreground color: #ffffff, background color: #f39c12, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-123-A",
+                  "path": "1,HTML,1,BODY,2,DIV,3,MAIN,0,DIV,3,DIV,0,DIV,1,DIV,0,ARTICLE,0,DIV,3,DIV,0,DIV,0,DIV,0,DIV,4,DIV,0,DIV,0,P,0,A",
+                  "selector": "div._none > div.field > p > a.pbgcSurvey",
+                  "boundingRect": {
+                    "top": 292,
+                    "bottom": 410,
+                    "left": 359,
+                    "right": 404,
+                    "width": 45,
+                    "height": 118
+                  },
+                  "snippet": "<a aria-label=\"Your Feedback, opens dialog\" class=\"pbgcSurvey pbgcSurveybadge--default pbgcSurveybadge--large pbgcSurveymiddl…\" onclick=\"window.open('https://cfigroupfed.gov1.qualtrics.com/jfe/form/SV_3yDc1yAgFv…\" role=\"button\" style=\"display: block; overflow: hidden; background-color: rgb(243, 156, 18);\" tabindex=\"0\">",
+                  "nodeLabel": "Your Feedback"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "duplicate-id-active",
+    "title": "`[id]` attributes on active, focusable elements are not unique",
+    "description": "All focusable elements must have a unique `id` to ensure that they're visible to assistive technologies. [Learn more](https://web.dev/duplicate-id-active/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-100-A",
+            "path": "1,HTML,1,BODY,2,DIV,3,MAIN,0,DIV,3,DIV,0,DIV,1,DIV,0,ARTICLE,0,DIV,3,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,3,DIV,1,DIV,0,H4,0,A",
+            "selector": "div.grid-row > div.grid-col-10 > h4 > a#fax",
+            "boundingRect": {
+              "top": 2273,
+              "bottom": 2311,
+              "left": 93,
+              "right": 311,
+              "width": 218,
+              "height": 38
+            },
+            "snippet": "<a data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"343800b9-205f-4eae-a245-1f2904dbeae4\" href=\"/about/pg/contact/another-way-to-get-in-touch\" id=\"fax\" name=\"fax\">",
+            "nodeLabel": "Emailing PBGC: Protect Your Personal Information",
+            "explanation": "Fix any of the following:\n  Document has active elements with the same id attribute: fax"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-101-A",
+                  "path": "1,HTML,1,BODY,2,DIV,3,MAIN,0,DIV,3,DIV,0,DIV,1,DIV,0,ARTICLE,0,DIV,3,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,3,DIV,1,DIV,2,P,0,A",
+                  "selector": "div.grid-row > div.grid-col-10 > p > a#fax",
+                  "boundingRect": {
+                    "top": 2497,
+                    "bottom": 2497,
+                    "left": 93,
+                    "right": 93,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "snippet": "<a id=\"fax\" name=\"fax\">",
+                  "nodeLabel": "div.grid-row > div.grid-col-10 > p > a#fax"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-102-A",
+                  "path": "1,HTML,1,BODY,2,DIV,3,MAIN,0,DIV,3,DIV,0,DIV,1,DIV,0,ARTICLE,0,DIV,3,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,4,P,0,A",
+                  "selector": "div.field > div.grid-container > p > a#fax",
+                  "boundingRect": {
+                    "top": 2513,
+                    "bottom": 2513,
+                    "left": 32,
+                    "right": 32,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "snippet": "<a id=\"fax\" name=\"fax\">",
+                  "nodeLabel": "div.field > div.grid-container > p > a#fax"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-103-A",
+                  "path": "1,HTML,1,BODY,2,DIV,3,MAIN,0,DIV,3,DIV,0,DIV,1,DIV,0,ARTICLE,0,DIV,3,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,5,DIV,1,DIV,0,A",
+                  "selector": "div.grid-container > div.grid-row > div.grid-col-10 > a#fax",
+                  "boundingRect": {
+                    "top": 2513,
+                    "bottom": 2513,
+                    "left": 93,
+                    "right": 93,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "snippet": "<a id=\"fax\" name=\"fax\">",
+                  "nodeLabel": "div.grid-container > div.grid-row > div.grid-col-10 > a#fax"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.parsing",
+          "wcag2a",
+          "wcag411"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-195-H4",
+            "path": "1,HTML,1,BODY,2,DIV,3,MAIN,0,DIV,3,DIV,0,DIV,1,DIV,0,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,H4",
+            "selector": "div.grid-col-12 > div._none > div.usa-alert__body > h4.usa-alert__heading",
+            "boundingRect": {
+              "top": 290,
+              "bottom": 312,
+              "left": 71,
+              "right": 380,
+              "width": 309,
+              "height": 22
+            },
+            "snippet": "<h4 class=\"usa-alert__heading\">",
+            "nodeLabel": "Tax Form Information",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-196-H4",
+            "path": "1,HTML,1,BODY,2,DIV,3,MAIN,0,DIV,3,DIV,0,DIV,1,DIV,0,ARTICLE,0,DIV,3,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,4,DIV,1,DIV,1,DIV,0,H4",
+            "selector": "div.grid-container > div.grid-row > div.grid-col-10 > h4",
+            "boundingRect": {
+              "top": 4392,
+              "bottom": 4411,
+              "left": 93,
+              "right": 380,
+              "width": 287,
+              "height": 19
+            },
+            "snippet": "<h4>",
+            "nodeLabel": "Call: 1-800-736-2444",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 2
+  }
+]
