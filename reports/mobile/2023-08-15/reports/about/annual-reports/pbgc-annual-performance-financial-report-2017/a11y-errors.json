@@ -1,0 +1,127 @@
+[
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-163-H3",
+            "path": "1,HTML,1,BODY,2,DIV,4,FOOTER,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,H3",
+            "selector": "div.desktop:grid-col-4 > div._none > div.field > h3",
+            "boundingRect": {
+              "top": 2221,
+              "bottom": 2248,
+              "left": 16,
+              "right": 396,
+              "width": 380,
+              "height": 26
+            },
+            "snippet": "<h3>",
+            "nodeLabel": "Popular Links",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "image-alt",
+    "title": "Image elements do not have `[alt]` attributes",
+    "description": "Informative elements should aim for short, descriptive alternate text. Decorative elements can be ignored with an empty alt attribute. [Learn more](https://web.dev/image-alt/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-164-IMG",
+            "path": "1,HTML,1,BODY,2,DIV,3,MAIN,0,DIV,3,DIV,0,DIV,1,DIV,0,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,P,0,SPAN,0,SPAN,0,IMG",
+            "selector": "p > span.SCXW263118458 > span.AttachedToBeginning > img.SCXW263118458",
+            "boundingRect": {
+              "top": 432,
+              "bottom": 572,
+              "left": 14,
+              "right": 126,
+              "width": 112,
+              "height": 140
+            },
+            "snippet": "<img class=\"SCXW263118458 WACImage\" src=\"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEA3ADcAAD/2wBDAAMCAgMCAgMDAwMEAwM…\" style=\"-webkit-tap-highlight-color: transparent; -webkit-user-drag: none;\" unselectable=\"on\">",
+            "nodeLabel": "p > span.SCXW263118458 > span.AttachedToBeginning > img.SCXW263118458",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-165-IMG",
+            "path": "1,HTML,1,BODY,2,DIV,3,MAIN,0,DIV,3,DIV,0,DIV,1,DIV,0,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,P,0,SPAN,0,SPAN,0,IMG",
+            "selector": "p.Paragraph > span.SCXW118527268 > span.AttachedToBeginning > img.SCXW118527268",
+            "boundingRect": {
+              "top": 1585,
+              "bottom": 1631,
+              "left": 14,
+              "right": 141,
+              "width": 127,
+              "height": 46
+            },
+            "snippet": "<img class=\"SCXW118527268 WACImage\" src=\"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEA3ADcAAD/2wBDAAMCAgMCAgMDAwMEAwM…\" style=\"-webkit-tap-highlight-color: transparent; -webkit-user-drag: none;\" unselectable=\"on\">",
+            "nodeLabel": "p.Paragraph > span.SCXW118527268 > span.AttachedToBeginning > img.SCXW118527268",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag111",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 2
+  }
+]

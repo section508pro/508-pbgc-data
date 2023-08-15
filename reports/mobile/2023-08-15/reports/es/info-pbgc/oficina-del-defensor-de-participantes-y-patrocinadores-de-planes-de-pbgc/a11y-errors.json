@@ -1,0 +1,371 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-167-SPAN",
+            "path": "1,HTML,1,BODY,2,DIV,3,MAIN,0,DIV,3,DIV,0,DIV,1,DIV,0,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,P,0,A,0,SPAN,0,SPAN",
+            "selector": "p > a > span > span",
+            "boundingRect": {
+              "top": 1002,
+              "bottom": 1021,
+              "left": 16,
+              "right": 75,
+              "width": 59,
+              "height": 19
+            },
+            "snippet": "<span style=\"background-color:null\">",
+            "nodeLabel": "Biografí",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #3498db, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-168-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.path-node",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 17805,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 17805
+                  },
+                  "snippet": "<body class=\"path-node page-node-type-page\">",
+                  "nodeLabel": "body.path-node"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-169-SPAN",
+            "path": "1,HTML,1,BODY,2,DIV,3,MAIN,0,DIV,3,DIV,0,DIV,1,DIV,0,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,14,UL,0,LI,0,A,0,SPAN,0,U,0,SPAN",
+            "selector": "a > span > u > span",
+            "boundingRect": {
+              "top": 1875,
+              "bottom": 1894,
+              "left": 46,
+              "right": 215,
+              "width": 169,
+              "height": 19
+            },
+            "snippet": "<span style=\"background-color:null\">",
+            "nodeLabel": "Informe Anual de 2019",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #3498db, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-168-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.path-node",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 17805,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 17805
+                  },
+                  "snippet": "<body class=\"path-node page-node-type-page\">",
+                  "nodeLabel": "body.path-node"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-170-SPAN",
+            "path": "1,HTML,1,BODY,2,DIV,3,MAIN,0,DIV,3,DIV,0,DIV,1,DIV,0,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,14,UL,1,LI,0,A,0,SPAN,0,U,0,SPAN",
+            "selector": "a > span > u > span",
+            "boundingRect": {
+              "top": 1905,
+              "bottom": 1924,
+              "left": 46,
+              "right": 215,
+              "width": 169,
+              "height": 19
+            },
+            "snippet": "<span style=\"background-color:null\">",
+            "nodeLabel": "Informe Anual de 2018",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #3498db, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-168-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.path-node",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 17805,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 17805
+                  },
+                  "snippet": "<body class=\"path-node page-node-type-page\">",
+                  "nodeLabel": "body.path-node"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-171-SPAN",
+            "path": "1,HTML,1,BODY,2,DIV,3,MAIN,0,DIV,3,DIV,0,DIV,1,DIV,0,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,14,UL,2,LI,2,UL,0,LI,0,A,0,U,2,SPAN,0,U,0,SPAN",
+            "selector": "u > span > u > span",
+            "boundingRect": {
+              "top": 2019,
+              "bottom": 2038,
+              "left": 168,
+              "right": 211,
+              "width": 43,
+              "height": 19
+            },
+            "snippet": "<span style=\"background-color:null\">",
+            "nodeLabel": "Estud",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #3498db, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-168-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.path-node",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 17805,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 17805
+                  },
+                  "snippet": "<body class=\"path-node page-node-type-page\">",
+                  "nodeLabel": "body.path-node"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-172-SPAN",
+            "path": "1,HTML,1,BODY,2,DIV,3,MAIN,0,DIV,3,DIV,0,DIV,1,DIV,0,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,14,UL,2,LI,2,UL,0,LI,0,A,0,U,2,SPAN,1,SPAN",
+            "selector": "a > u > span > span",
+            "boundingRect": {
+              "top": 2019,
+              "bottom": 2064,
+              "left": 76,
+              "right": 353,
+              "width": 277,
+              "height": 45
+            },
+            "snippet": "<span style=\"background-color:null\">",
+            "nodeLabel": "io de Reducción de Riesgos",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #3498db, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-168-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.path-node",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 17805,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 17805
+                  },
+                  "snippet": "<body class=\"path-node page-node-type-page\">",
+                  "nodeLabel": "body.path-node"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-173-SPAN",
+            "path": "1,HTML,1,BODY,2,DIV,3,MAIN,0,DIV,3,DIV,0,DIV,1,DIV,0,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,20,P,1,A,0,SPAN,0,SPAN",
+            "selector": "p > a > span > span",
+            "boundingRect": {
+              "top": 4015,
+              "bottom": 4034,
+              "left": 16,
+              "right": 165,
+              "width": 149,
+              "height": 19
+            },
+            "snippet": "<span style=\"background-color:null\">",
+            "nodeLabel": "Informe Anual 2020",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #3498db, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-168-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.path-node",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 17805,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 17805
+                  },
+                  "snippet": "<body class=\"path-node page-node-type-page\">",
+                  "nodeLabel": "body.path-node"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-174-SPAN",
+            "path": "1,HTML,1,BODY,2,DIV,3,MAIN,0,DIV,3,DIV,0,DIV,1,DIV,0,ARTICLE,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,27,P,1,A,0,SPAN,0,SPAN",
+            "selector": "p > a > span > span",
+            "boundingRect": {
+              "top": 5528,
+              "bottom": 5573,
+              "left": 16,
+              "right": 386,
+              "width": 370,
+              "height": 45
+            },
+            "snippet": "<span style=\"background-color:null\">",
+            "nodeLabel": "Informe Anual de 2019",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #3498db, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-168-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.path-node",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 17805,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 17805
+                  },
+                  "snippet": "<body class=\"path-node page-node-type-page\">",
+                  "nodeLabel": "body.path-node"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-175-SPAN",
+            "path": "1,HTML,1,BODY,2,DIV,3,MAIN,0,DIV,3,DIV,0,DIV,2,DIV,0,DIV,0,P,0,A,0,SPAN",
+            "selector": "div.field > p > a.pbgcSurvey > span.pbgcSurveyBadgeLabel",
+            "boundingRect": {
+              "top": 303,
+              "bottom": 464,
+              "left": 373,
+              "right": 389,
+              "width": 16,
+              "height": 161
+            },
+            "snippet": "<span class=\"pbgcSurveyBadgeLabel\" style=\"color:#fff\">",
+            "nodeLabel": "Déjenos sus comentarios",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.19 (foreground color: #ffffff, background color: #f39c12, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-119-A",
+                  "path": "1,HTML,1,BODY,2,DIV,3,MAIN,0,DIV,3,DIV,0,DIV,2,DIV,0,DIV,0,P,0,A",
+                  "selector": "div#block-spanishoptinsurvey > div.field > p > a.pbgcSurvey",
+                  "boundingRect": {
+                    "top": 292,
+                    "bottom": 475,
+                    "left": 359,
+                    "right": 404,
+                    "width": 45,
+                    "height": 183
+                  },
+                  "snippet": "<a aria-label=\"Your Feedback, opens dialog\" class=\"pbgcSurvey pbgcSurveybadge--default pbgcSurveybadge--large pbgcSurveymiddl…\" onclick=\"window.open('https://cfigroupfed.gov1.qualtrics.com/jfe/form/SV_bxOB6OjfpP…\" role=\"button\" style=\"display: block; overflow: hidden; background-color: rgb(243, 156, 18);\" tabindex=\"0\">",
+                  "nodeLabel": "Déjenos sus comentarios"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 8
+  }
+]
