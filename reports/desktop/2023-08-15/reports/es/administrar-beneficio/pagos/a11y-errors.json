@@ -1,0 +1,331 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-135-SPAN",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,3,DIV,0,DIV,2,DIV,0,DIV,0,P,0,A,0,SPAN",
+            "selector": "div.field > p > a.pbgcSurvey > span.pbgcSurveyBadgeLabel",
+            "boundingRect": {
+              "top": 338,
+              "bottom": 499,
+              "left": 1311,
+              "right": 1327,
+              "width": 16,
+              "height": 161
+            },
+            "snippet": "<span class=\"pbgcSurveyBadgeLabel\" style=\"color:#fff\">",
+            "nodeLabel": "Déjenos sus comentarios",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.19 (foreground color: #ffffff, background color: #f39c12, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-86-A",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,0,DIV,3,DIV,0,DIV,2,DIV,0,DIV,0,P,0,A",
+                  "selector": "div#block-spanishoptinsurvey > div.field > p > a.pbgcSurvey",
+                  "boundingRect": {
+                    "top": 327,
+                    "bottom": 510,
+                    "left": 1297,
+                    "right": 1342,
+                    "width": 45,
+                    "height": 183
+                  },
+                  "snippet": "<a aria-label=\"Your Feedback, opens dialog\" class=\"pbgcSurvey pbgcSurveybadge--default pbgcSurveybadge--large pbgcSurveymiddl…\" onclick=\"window.open('https://cfigroupfed.gov1.qualtrics.com/jfe/form/SV_bxOB6OjfpP…\" role=\"button\" style=\"display: block; overflow: hidden; background-color: rgb(243, 156, 18);\" tabindex=\"0\">",
+                  "nodeLabel": "Déjenos sus comentarios"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "duplicate-id-active",
+    "title": "`[id]` attributes on active, focusable elements are not unique",
+    "description": "All focusable elements must have a unique `id` to ensure that they're visible to assistive technologies. [Learn more](https://web.dev/duplicate-id-active/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-136-INPUT",
+            "path": "1,HTML,1,BODY,1,DIV,2,DIV,0,HEADER,1,NAV,0,DIV,1,FORM,0,DIV,0,INPUT",
+            "selector": "div.usa-nav__inner > form#search-block-form > div > input#extended-search-field-small",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 0,
+              "left": 0,
+              "right": 0,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<input class=\"usa-input\" id=\"extended-search-field-small\" type=\"search\" name=\"key\" placeholder=\"Buscar\">",
+            "nodeLabel": "div.usa-nav__inner > form#search-block-form > div > input#extended-search-field-small",
+            "explanation": "Fix any of the following:\n  Document has active elements with the same id attribute: extended-search-field-small"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-133-INPUT",
+                  "path": "1,HTML,1,BODY,1,DIV,2,DIV,0,HEADER,1,NAV,0,DIV,3,DIV,1,FORM,0,DIV,0,INPUT",
+                  "selector": "div.usa-nav__secondary > form#search-block-form > div > input#extended-search-field-small",
+                  "boundingRect": {
+                    "top": 102,
+                    "bottom": 134,
+                    "left": 909,
+                    "right": 1179,
+                    "width": 270,
+                    "height": 32
+                  },
+                  "snippet": "<input class=\"usa-input\" id=\"extended-search-field-small\" type=\"search\" name=\"key\" placeholder=\"Buscar\">",
+                  "nodeLabel": "div.usa-nav__secondary > form#search-block-form > div > input#extended-search-field-small"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.parsing",
+          "wcag2a",
+          "wcag411"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-137-H3",
+            "path": "1,HTML,1,BODY,1,DIV,4,FOOTER,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,H3",
+            "selector": "div.desktop:grid-col-6 > div._none > div.field > h3",
+            "boundingRect": {
+              "top": 1003,
+              "bottom": 1030,
+              "left": 691,
+              "right": 1243,
+              "width": 552,
+              "height": 26
+            },
+            "snippet": "<h3>",
+            "nodeLabel": "Comuníquese con PBGC",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "listitem",
+    "title": "List items (`<li>`) are not contained within `<ul>` or `<ol>` parent elements.",
+    "description": "Screen readers require list items (`<li>`) to be contained within a parent `<ul>` or `<ol>` to be announced properly. [Learn more](https://web.dev/listitem/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-138-LI",
+            "path": "1,HTML,1,BODY,1,DIV,2,DIV,0,HEADER,1,NAV,0,DIV,2,UL,0,LI",
+            "selector": "nav.usa-nav > div.usa-nav__inner > ul.usa-nav__primary > li.usa-nav__primary-item",
+            "boundingRect": {
+              "top": 152,
+              "bottom": 198,
+              "left": 91,
+              "right": 250,
+              "width": 159,
+              "height": 46
+            },
+            "snippet": "<li class=\"usa-nav__primary-item\">",
+            "nodeLabel": "Acerca de PBGC",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-139-LI",
+            "path": "1,HTML,1,BODY,1,DIV,2,DIV,0,HEADER,1,NAV,0,DIV,2,UL,1,LI",
+            "selector": "nav.usa-nav > div.usa-nav__inner > ul.usa-nav__primary > li.usa-nav__primary-item",
+            "boundingRect": {
+              "top": 152,
+              "bottom": 198,
+              "left": 250,
+              "right": 368,
+              "width": 118,
+              "height": 46
+            },
+            "snippet": "<li class=\"usa-nav__primary-item\">",
+            "nodeLabel": "Beneficios",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-140-LI",
+            "path": "1,HTML,1,BODY,1,DIV,2,DIV,0,HEADER,1,NAV,0,DIV,2,UL,2,LI",
+            "selector": "nav.usa-nav > div.usa-nav__inner > ul.usa-nav__primary > li.usa-nav__primary-item",
+            "boundingRect": {
+              "top": 152,
+              "bottom": 198,
+              "left": 368,
+              "right": 524,
+              "width": 156,
+              "height": 46
+            },
+            "snippet": "<li class=\"usa-nav__primary-item\">",
+            "nodeLabel": "Planes de PBGC",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-141-LI",
+            "path": "1,HTML,1,BODY,1,DIV,2,DIV,0,HEADER,1,NAV,0,DIV,2,UL,3,LI",
+            "selector": "nav.usa-nav > div.usa-nav__inner > ul.usa-nav__primary > li.usa-nav__primary-item",
+            "boundingRect": {
+              "top": 152,
+              "bottom": 198,
+              "left": 524,
+              "right": 634,
+              "width": 110,
+              "height": 46
+            },
+            "snippet": "<li class=\"usa-nav__primary-item\">",
+            "nodeLabel": "Recursos",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-142-LI",
+            "path": "1,HTML,1,BODY,1,DIV,2,DIV,0,HEADER,1,NAV,0,DIV,2,UL,4,LI",
+            "selector": "nav.usa-nav > div.usa-nav__inner > ul.usa-nav__primary > li.usa-nav__primary-item",
+            "boundingRect": {
+              "top": 152,
+              "bottom": 198,
+              "left": 634,
+              "right": 716,
+              "width": 82,
+              "height": 46
+            },
+            "snippet": "<li class=\"usa-nav__primary-item\">",
+            "nodeLabel": "MyPBA",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 5
+  }
+]
