@@ -1,0 +1,111 @@
+[
+  {
+    "id": "aria-allowed-attr",
+    "title": "`[aria-*]` attributes do not match their roles",
+    "description": "Each ARIA `role` supports a specific subset of `aria-*` attributes. Mismatching these invalidates the `aria-*` attributes. [Learn more](https://web.dev/aria-allowed-attr/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-229-DIV",
+            "path": "1,HTML,1,BODY,2,DIV,3,MAIN,0,DIV,3,DIV,0,DIV,1,DIV,0,ARTICLE,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,1,DIV,0,DIV,0,DIV,1,DIV",
+            "selector": "div.pbgc-faq-section > div > div.paragraph > div.usa-accordion",
+            "boundingRect": {
+              "top": 2386,
+              "bottom": 3087,
+              "left": 16,
+              "right": 396,
+              "width": 380,
+              "height": 701
+            },
+            "snippet": "<div class=\"usa-accordion\" aria-multiselectable=\"false\">",
+            "nodeLabel": "When PBGC assumes benefit administration for these plans, who does this impact?…",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-multiselectable=\"false\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-230-DIV",
+            "path": "1,HTML,1,BODY,2,DIV,3,MAIN,0,DIV,3,DIV,0,DIV,1,DIV,0,ARTICLE,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,1,DIV,1,DIV,0,DIV,1,DIV",
+            "selector": "div.pbgc-faq-section > div > div.paragraph > div.usa-accordion",
+            "boundingRect": {
+              "top": 3204,
+              "bottom": 3540,
+              "left": 16,
+              "right": 396,
+              "width": 380,
+              "height": 336
+            },
+            "snippet": "<div class=\"usa-accordion\" aria-multiselectable=\"false\">",
+            "nodeLabel": "Will this change affect my December benefit payment?\n\nNo.  \n\nIf you are a Sears…",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-multiselectable=\"false\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-231-DIV",
+            "path": "1,HTML,1,BODY,2,DIV,3,MAIN,0,DIV,3,DIV,0,DIV,1,DIV,0,ARTICLE,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,1,DIV,2,DIV,0,DIV,1,DIV",
+            "selector": "div.pbgc-faq-section > div > div.paragraph > div.usa-accordion",
+            "boundingRect": {
+              "top": 3657,
+              "bottom": 3879,
+              "left": 16,
+              "right": 396,
+              "width": 380,
+              "height": 222
+            },
+            "snippet": "<div class=\"usa-accordion\" aria-multiselectable=\"false\">",
+            "nodeLabel": "Can I set up an online account with PBGC?\n\nYes – all participants in the Sears …",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-multiselectable=\"false\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-232-DIV",
+            "path": "1,HTML,1,BODY,2,DIV,3,MAIN,0,DIV,3,DIV,0,DIV,1,DIV,0,ARTICLE,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,1,DIV,3,DIV,0,DIV,1,DIV",
+            "selector": "div.pbgc-faq-section > div > div.paragraph > div.usa-accordion",
+            "boundingRect": {
+              "top": 4072,
+              "bottom": 4829,
+              "left": 16,
+              "right": 396,
+              "width": 380,
+              "height": 757
+            },
+            "snippet": "<div class=\"usa-accordion\" aria-multiselectable=\"false\">",
+            "nodeLabel": "Are Sears Holdings Corporation’s pension plans insured by PBGC?\n\nYes – PBGC ins…",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-multiselectable=\"false\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412"
+        ]
+      }
+    },
+    "errorCount": 4
+  }
+]
