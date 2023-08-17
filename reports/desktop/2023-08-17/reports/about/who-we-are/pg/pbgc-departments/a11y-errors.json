@@ -1,0 +1,205 @@
+[
+  {
+    "id": "duplicate-id-active",
+    "title": "`[id]` attributes on active, focusable elements are not unique",
+    "description": "All focusable elements must have a unique `id` to ensure that they're visible to assistive technologies. [Learn more](https://web.dev/duplicate-id-active/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-195-INPUT",
+            "path": "1,HTML,1,BODY,2,DIV,2,DIV,0,HEADER,1,NAV,0,DIV,1,FORM,0,DIV,0,INPUT",
+            "selector": "div.usa-nav__inner > form#search-block-form > div > input#extended-search-field-small",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 0,
+              "left": 0,
+              "right": 0,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<input class=\"usa-input\" id=\"extended-search-field-small\" type=\"search\" name=\"key\" placeholder=\"Search\">",
+            "nodeLabel": "div.usa-nav__inner > form#search-block-form > div > input#extended-search-field-small",
+            "explanation": "Fix any of the following:\n  Document has active elements with the same id attribute: extended-search-field-small"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-193-INPUT",
+                  "path": "1,HTML,1,BODY,2,DIV,2,DIV,0,HEADER,1,NAV,0,DIV,4,DIV,2,FORM,0,DIV,0,INPUT",
+                  "selector": "div.usa-nav__secondary > form#search-block-form > div > input#extended-search-field-small",
+                  "boundingRect": {
+                    "top": 102,
+                    "bottom": 134,
+                    "left": 948,
+                    "right": 1179,
+                    "width": 231,
+                    "height": 32
+                  },
+                  "snippet": "<input class=\"usa-input\" id=\"extended-search-field-small\" type=\"search\" name=\"key\" placeholder=\"Search\">",
+                  "nodeLabel": "div.usa-nav__secondary > form#search-block-form > div > input#extended-search-field-small"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.parsing",
+          "wcag2a",
+          "wcag411"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "listitem",
+    "title": "List items (`<li>`) are not contained within `<ul>` or `<ol>` parent elements.",
+    "description": "Screen readers require list items (`<li>`) to be contained within a parent `<ul>` or `<ol>` to be announced properly. [Learn more](https://web.dev/listitem/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-196-LI",
+            "path": "1,HTML,1,BODY,2,DIV,2,DIV,0,HEADER,1,NAV,0,DIV,3,UL,0,LI",
+            "selector": "nav.usa-nav > div.usa-nav__inner > ul.usa-nav__primary > li.usa-nav__primary-item",
+            "boundingRect": {
+              "top": 152,
+              "bottom": 198,
+              "left": 91,
+              "right": 223,
+              "width": 132,
+              "height": 46
+            },
+            "snippet": "<li class=\"usa-nav__primary-item\">",
+            "nodeLabel": "About PBGC",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-197-LI",
+            "path": "1,HTML,1,BODY,2,DIV,2,DIV,0,HEADER,1,NAV,0,DIV,3,UL,1,LI",
+            "selector": "nav.usa-nav > div.usa-nav__inner > ul.usa-nav__primary > li.usa-nav__primary-item",
+            "boundingRect": {
+              "top": 152,
+              "bottom": 198,
+              "left": 223,
+              "right": 385,
+              "width": 162,
+              "height": 46
+            },
+            "snippet": "<li class=\"usa-nav__primary-item\">",
+            "nodeLabel": "Workers & Retirees",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-198-LI",
+            "path": "1,HTML,1,BODY,2,DIV,2,DIV,0,HEADER,1,NAV,0,DIV,3,UL,2,LI",
+            "selector": "nav.usa-nav > div.usa-nav__inner > ul.usa-nav__primary > li.usa-nav__primary-item",
+            "boundingRect": {
+              "top": 152,
+              "bottom": 198,
+              "left": 385,
+              "right": 611,
+              "width": 226,
+              "height": 46
+            },
+            "snippet": "<li class=\"usa-nav__primary-item\">",
+            "nodeLabel": "Employers & Practitioners",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-199-LI",
+            "path": "1,HTML,1,BODY,2,DIV,2,DIV,0,HEADER,1,NAV,0,DIV,3,UL,3,LI",
+            "selector": "nav.usa-nav > div.usa-nav__inner > ul.usa-nav__primary > li.usa-nav__primary-item",
+            "boundingRect": {
+              "top": 152,
+              "bottom": 198,
+              "left": 611,
+              "right": 755,
+              "width": 144,
+              "height": 46
+            },
+            "snippet": "<li class=\"usa-nav__primary-item\">",
+            "nodeLabel": "News & Policy",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-200-LI",
+            "path": "1,HTML,1,BODY,2,DIV,2,DIV,0,HEADER,1,NAV,0,DIV,3,UL,4,LI",
+            "selector": "nav.usa-nav > div.usa-nav__inner > ul.usa-nav__primary > li.usa-nav__primary-item",
+            "boundingRect": {
+              "top": 152,
+              "bottom": 198,
+              "left": 755,
+              "right": 877,
+              "width": 122,
+              "height": 46
+            },
+            "snippet": "<li class=\"usa-nav__primary-item\">",
+            "nodeLabel": "MyPBA Login",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 5
+  }
+]
