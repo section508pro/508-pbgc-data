@@ -1,0 +1,308 @@
+[
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-170-H3",
+            "path": "1,HTML,1,BODY,2,DIV,4,FOOTER,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,H3",
+            "selector": "div.desktop:grid-col-4 > div._none > div.field > h3",
+            "boundingRect": {
+              "top": 1924,
+              "bottom": 1950,
+              "left": 16,
+              "right": 396,
+              "width": 380,
+              "height": 26
+            },
+            "snippet": "<h3>",
+            "nodeLabel": "Popular Links",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "meta-viewport",
+    "title": "`[user-scalable=\"no\"]` is used in the `<meta name=\"viewport\">` element or the `[maximum-scale]` attribute is less than 5.",
+    "description": "Disabling zooming is problematic for users with low vision who rely on screen magnification to properly see the contents of a web page. [Learn more](https://web.dev/meta-viewport/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-144-META",
+            "path": "1,HTML,0,HEAD,29,META",
+            "selector": "head > meta",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 0,
+              "left": 0,
+              "right": 0,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=2.0,u…\">",
+            "nodeLabel": "head > meta",
+            "explanation": "Fix any of the following:\n  user-scalable=no on <meta> tag disables zooming on mobile devices"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.sensory-and-visual-cues",
+          "best-practice",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "tabindex",
+    "title": "Some elements have a `[tabindex]` value greater than 0",
+    "description": "A value greater than 0 implies an explicit navigation ordering. Although technically valid, this often creates frustrating experiences for users who rely on assistive technologies. [Learn more](https://web.dev/tabindex/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-171-P",
+            "path": "1,HTML,2,DIV,0,DIV,0,DIV,2,P",
+            "selector": "div#cfi_previewFormFirst > div#cfi_box > div#cfi_content > p",
+            "boundingRect": {
+              "top": 221,
+              "bottom": 246,
+              "left": 53,
+              "right": 365,
+              "width": 312,
+              "height": 26
+            },
+            "snippet": "<p tabindex=\"10001\">",
+            "nodeLabel": "Tell Us What You Think!",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-172-P",
+            "path": "1,HTML,2,DIV,0,DIV,0,DIV,3,P",
+            "selector": "div#cfi_previewFormFirst > div#cfi_box > div#cfi_content > p",
+            "boundingRect": {
+              "top": 266,
+              "bottom": 343,
+              "left": 53,
+              "right": 365,
+              "width": 312,
+              "height": 77
+            },
+            "snippet": "<p style=\"margin-top: 20px;\" tabindex=\"10002\">",
+            "nodeLabel": "Thank you for visiting PBGC.gov. You have been randomly selected to take part i…",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-173-P",
+            "path": "1,HTML,2,DIV,0,DIV,0,DIV,4,P",
+            "selector": "div#cfi_previewFormFirst > div#cfi_box > div#cfi_content > p",
+            "boundingRect": {
+              "top": 363,
+              "bottom": 491,
+              "left": 53,
+              "right": 365,
+              "width": 312,
+              "height": 128
+            },
+            "snippet": "<p style=\"margin-top: 20px;\" tabindex=\"10003\">",
+            "nodeLabel": "Please take a minute or two to give us your opinions. The feedback you provide …",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-174-P",
+            "path": "1,HTML,2,DIV,0,DIV,0,DIV,5,P",
+            "selector": "div#cfi_previewFormFirst > div#cfi_box > div#cfi_content > p",
+            "boundingRect": {
+              "top": 511,
+              "bottom": 562,
+              "left": 53,
+              "right": 365,
+              "width": 312,
+              "height": 51
+            },
+            "snippet": "<p style=\"margin-top: 20px;\" tabindex=\"10004\">",
+            "nodeLabel": "May we email you a brief customer satisfaction survey?",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-175-P",
+            "path": "1,HTML,2,DIV,0,DIV,0,DIV,6,P",
+            "selector": "div#cfi_previewFormFirst > div#cfi_box > div#cfi_content > p",
+            "boundingRect": {
+              "top": 582,
+              "bottom": 659,
+              "left": 53,
+              "right": 365,
+              "width": 312,
+              "height": 77
+            },
+            "snippet": "<p style=\"margin-top: 20px;\" tabindex=\"10005\">",
+            "nodeLabel": "This survey is being conducted by an independent research company, CFI Group. I…",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-129-A",
+            "path": "1,HTML,2,DIV,0,DIV,0,DIV,6,P,0,SPAN,1,EM,0,SPAN,0,A",
+            "selector": "span > em > span > a",
+            "boundingRect": {
+              "top": 642,
+              "bottom": 653,
+              "left": 53,
+              "right": 169,
+              "width": 116,
+              "height": 11
+            },
+            "snippet": "<a href=\"mailto:surveyhelp@cfigroup.com?subject=PBGC.gov%20Website%20Survey%20Feedb…\" tabindex=\"10006\">",
+            "nodeLabel": "surveyhelp@cfigroup.com",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-130-A",
+            "path": "1,HTML,2,DIV,0,DIV,0,DIV,6,P,0,SPAN,1,EM,0,SPAN,2,A",
+            "selector": "span > em > span > a",
+            "boundingRect": {
+              "top": 642,
+              "bottom": 653,
+              "left": 326,
+              "right": 346,
+              "width": 20,
+              "height": 11
+            },
+            "snippet": "<a href=\"http://cfigroup.com/index.php/privacy-policy/\" target=\"_blank\" rel=\"noopener\" tabindex=\"10007\">",
+            "nodeLabel": "here",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-168-INPUT",
+            "path": "1,HTML,2,DIV,0,DIV,1,DIV,0,DIV,0,INPUT",
+            "selector": "div#cfi_box > div#cfi_button > div > input#cfi_btnContinue",
+            "boundingRect": {
+              "top": 675,
+              "bottom": 711,
+              "left": 64,
+              "right": 185,
+              "width": 121,
+              "height": 36
+            },
+            "snippet": "<input type=\"button\" name=\"cfi_btnContinue\" value=\"Continue\" id=\"cfi_btnContinue\" alt=\"Continue\" style=\"width:96%;margin-left:10px;margin-right:10px;\" class=\"cfi_btn_default\" tabindex=\"10008\">",
+            "nodeLabel": "Continue",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-169-INPUT",
+            "path": "1,HTML,2,DIV,0,DIV,1,DIV,1,DIV,0,INPUT",
+            "selector": "div#cfi_box > div#cfi_button > div > input#cfi_btnNoThanks",
+            "boundingRect": {
+              "top": 675,
+              "bottom": 711,
+              "left": 221,
+              "right": 354,
+              "width": 134,
+              "height": 36
+            },
+            "snippet": "<input type=\"button\" name=\"cfi_btnNoThanks\" value=\"No Thanks\" id=\"cfi_btnNoThanks\" alt=\"No Thanks\" style=\"width:96%;margin-left:10px;margin-right:10px;\" class=\"cfi_btn_default\" tabindex=\"10009\">",
+            "nodeLabel": "No Thanks",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.keyboard",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 9
+  }
+]
